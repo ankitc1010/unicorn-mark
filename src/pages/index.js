@@ -335,7 +335,7 @@ class IndexPage extends React.Component {
                 Read all stories &rarr;
               </a>
             </div>
-          </section>
+          </section>*/}
 
           <section className="section-book">
             <div className="row">
@@ -343,7 +343,7 @@ class IndexPage extends React.Component {
                 <div className="book__form">
                   <form action="#" className="form">
                     <div className="u-margin-bottom-medium">
-                      <h2 className="heading-secondary">Start booking now</h2>
+                      <h2 className="heading-secondary">Enquire now</h2>
                     </div>
 
                     <div className="form__group">
@@ -382,7 +382,7 @@ class IndexPage extends React.Component {
                         />
                         <label for="small" className="form__radio-label">
                           <span className="form__radio-button" />
-                          Small tour group
+                          Option 1
                         </label>
                       </div>
 
@@ -395,21 +395,19 @@ class IndexPage extends React.Component {
                         />
                         <label for="large" className="form__radio-label">
                           <span className="form__radio-button" />
-                          Large tour group
+                          Option 2
                         </label>
                       </div>
                     </div>
 
                     <div className="form__group">
-                      <button className="btn btn--green">
-                        Next step &rarr;
-                      </button>
+                      <button className="btn btn--green">Submit &rarr;</button>
                     </div>
                   </form>
                 </div>
               </div>
             </div>
-          </section> */}
+          </section>
         </main>
 
         <footer className="footer">
