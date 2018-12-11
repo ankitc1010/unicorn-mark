@@ -24,73 +24,21 @@ class IndexPage extends React.Component {
         <header className="header">
           <div className="header__text-box">
             <h1 className="heading-primary">
-              <span className="heading-primary--main">UnicornMark</span>
-              <span className="heading-primary--sub">branding simplified</span>
+              <span className="heading-primary--main">
+                <img src={logo} />
+              </span>
+              <span className="heading-primary--sub">
+                Brand and Marketing Science, for Sales and ROI
+              </span>
             </h1>
 
             <a href="#section-tours" className="btn btn--white btn--animated">
-              Offerings
+              Tell me more
             </a>
           </div>
         </header>
 
         <main>
-          {/* <section className="section-features">
-            <div className="row">
-              <div className="col-1-of-4">
-                <div className="feature-box">
-                  <i className="feature-box__icon icon-basic-world" />
-                  <h3 className="heading-tertiary u-margin-bottom-small">
-                    Explore the world
-                  </h3>
-                  <p className="feature-box__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aperiam, ipsum sapiente aspernatur.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-1-of-4">
-                <div className="feature-box">
-                  <i className="feature-box__icon icon-basic-compass" />
-                  <h3 className="heading-tertiary u-margin-bottom-small">
-                    Meet nature
-                  </h3>
-                  <p className="feature-box__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aperiam, ipsum sapiente aspernatur.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-1-of-4">
-                <div className="feature-box">
-                  <i className="feature-box__icon icon-basic-map" />
-                  <h3 className="heading-tertiary u-margin-bottom-small">
-                    Find your way
-                  </h3>
-                  <p className="feature-box__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aperiam, ipsum sapiente aspernatur.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-1-of-4">
-                <div className="feature-box">
-                  <i className="feature-box__icon icon-basic-heart" />
-                  <h3 className="heading-tertiary u-margin-bottom-small">
-                    Live a healthier life
-                  </h3>
-                  <p className="feature-box__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aperiam, ipsum sapiente aspernatur.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>  */}
-
           <section className="section-tours" id="section-tours">
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">Our Offerings</h2>
@@ -108,19 +56,19 @@ class IndexPage extends React.Component {
                     </h4>
                     <div className="card__details">
                       <ul>
-                        <li>Brand Identity</li>
-                        <li>Sentiment Analysis Report</li>
-                        <li>Peer Group Analysis</li>
-                        <li>Brand Keyword/Phrases</li>
-                        <li>Digital Marketing Blueprint</li>
+                        Investment Branding is a set of professional documents
+                        which articulates a well-researched business opportunity
+                        and a rational plan towards the achievement of scale
                       </ul>
                     </div>
                   </div>
                   <div className="card__side card__side--back card__side--back-1">
                     <div className="card__cta">
                       <div className="card__price-box">
-                        <p className="card__price-only">For</p>
-                        <p className="card__price-value">Investment Branding</p>
+                        <p className="card__price-only">To</p>
+                        <p className="card__price-value">
+                          Build Investment Branding Documents
+                        </p>
                       </div>
                       <Link
                         to="/investment/"
@@ -141,24 +89,24 @@ class IndexPage extends React.Component {
                     <div className="card__picture card__picture--2">&nbsp;</div>
                     <h4 className="card__heading">
                       <span className="card__heading-span card__heading-span--2">
-                        POC Development
+                        Machine Learning POCs
                       </span>
                     </h4>
                     <div className="card__details">
                       <ul>
-                        <li>7 day tours</li>
-                        <li>Up to 40 people</li>
-                        <li>6 tour guides</li>
-                        <li>Sleep in provided tents</li>
-                        <li>Difficulty: medium</li>
+                        Machine Learning Proof-of-Concepts are custom-built
+                        prototype applications which demonstrate and measure the
+                        scope of automation and AI for your business
                       </ul>
                     </div>
                   </div>
                   <div className="card__side card__side--back card__side--back-2">
                     <div className="card__cta">
                       <div className="card__price-box">
-                        <p className="card__price-only">For</p>
-                        <p className="card__price-value">POC Development</p>
+                        <p className="card__price-only">To</p>
+                        <p className="card__price-value">
+                          Build Machine Learning Prototypes
+                        </p>
                       </div>
                       <Link
                         to="/machinelearning/"
@@ -179,24 +127,24 @@ class IndexPage extends React.Component {
                     <div className="card__picture card__picture--3">&nbsp;</div>
                     <h4 className="card__heading">
                       <span className="card__heading-span card__heading-span--3">
-                        Digital Marketing
+                        Digital Content Marketing
                       </span>
                     </h4>
                     <div className="card__details">
                       <ul>
-                        <li>5 day tours</li>
-                        <li>Up to 15 people</li>
-                        <li>3 tour guides</li>
-                        <li>Sleep in provided tents</li>
-                        <li>Difficulty: hard</li>
+                        Digital Content Marketing is a set of social and digital
+                        activities which ensures you are relevant and discussed
+                        in the digital community with minimal budgets
                       </ul>
                     </div>
                   </div>
                   <div className="card__side card__side--back card__side--back-3">
                     <div className="card__cta">
                       <div className="card__price-box">
-                        <p className="card__price-only">For</p>
-                        <p className="card__price-value">Digital Marketing</p>
+                        <p className="card__price-only">To</p>
+                        <p className="card__price-value">
+                          Do Digital Content Marketing
+                        </p>
                       </div>
                       <Link
                         to="/marketing/"
@@ -218,24 +166,24 @@ class IndexPage extends React.Component {
                     <div className="card__picture card__picture--4">&nbsp;</div>
                     <h4 className="card__heading">
                       <span className="card__heading-span card__heading-span--3">
-                        Product Research
+                        Product and Customer Research
                       </span>
                     </h4>
                     <div className="card__details">
                       <ul>
-                        <li>5 day tours</li>
-                        <li>Up to 15 people</li>
-                        <li>3 tour guides</li>
-                        <li>Sleep in provided tents</li>
-                        <li>Difficulty: hard</li>
+                        Product and Customer Research is a study that ensures
+                        you get maximum customer revenue with minimum developers
+                        and salespersons through comparative ROI evaluation
                       </ul>
                     </div>
                   </div>
                   <div className="card__side card__side--back card__side--back-3">
                     <div className="card__cta">
                       <div className="card__price-box">
-                        <p className="card__price-only">For</p>
-                        <p className="card__price-value">Product Research</p>
+                        <p className="card__price-only">To</p>
+                        <p className="card__price-value">
+                          Do Product and Customer Research
+                        </p>
                       </div>
                       <Link
                         to="/research/"
@@ -255,16 +203,14 @@ class IndexPage extends React.Component {
                     <div className="card__picture card__picture--5">&nbsp;</div>
                     <h4 className="card__heading">
                       <span className="card__heading-span card__heading-span--3">
-                        Websites and Webstores
+                        Bots and E-commerce Platform
                       </span>
                     </h4>
                     <div className="card__details">
                       <ul>
-                        <li>5 day tours</li>
-                        <li>Up to 15 people</li>
-                        <li>3 tour guides</li>
-                        <li>Sleep in provided tents</li>
-                        <li>Difficulty: hard</li>
+                        Bots and E-commerce Platform provides automation and
+                        optimization technology to seamlessly integrate business
+                        operations for efficiency
                       </ul>
                     </div>
                   </div>
@@ -273,7 +219,7 @@ class IndexPage extends React.Component {
                       <div className="card__price-box">
                         <p className="card__price-only">For</p>
                         <p className="card__price-value">
-                          Websites and Webstores
+                          Bots and E-commerce Platform
                         </p>
                       </div>
                       <Link
@@ -297,9 +243,11 @@ class IndexPage extends React.Component {
             </div> */}
           </section>
 
-          <section className="section-about">
+          <section className="section-features" id="section-features">
             <div className="u-center-text u-margin-bottom-big">
-              <h2 className="heading-secondary">Our Team</h2>
+              <h2 className="heading-secondary" style={{ color: 'white' }}>
+                Our Team
+              </h2>
             </div>
             <Team />
           </section>

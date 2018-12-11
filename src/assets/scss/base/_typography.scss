@@ -19,9 +19,14 @@ body {
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
-        
+        img {
+            width: 70%;
+        }
         @include respond(phone) {
             font-family: 5rem;
+            img {
+                width: 100%;
+            }
         }
         /*
         animation-delay: 3s;

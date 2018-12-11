@@ -19,6 +19,9 @@ const Team = styled.div`
 `
 const TeamMember = styled.div`
   display: flex;
+  background: rgba(256, 256, 256, 0.9);
+  padding: 1rem;
+  border-radius: 4px;
   img {
     width: 12rem;
     height: 12rem;
@@ -37,6 +40,9 @@ const TeamMember = styled.div`
     p {
       font-size: 1.5rem;
       line-height: 2rem;
+    }
+    > p:nth-child(2) {
+      font-weight: bold;
     }
     > p:last-child {
       font-size: 1.2rem;
