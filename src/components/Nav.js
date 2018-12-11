@@ -24,7 +24,7 @@ const NavStyles = styled.ul`
   }
   a,
   button {
-    padding: 1rem 3rem;
+    padding: 1rem 3rem !important;
     display: flex;
     position: relative;
     font-family: inherit;
@@ -34,6 +34,12 @@ const NavStyles = styled.ul`
     text-transform: uppercase;
     font-weight: 900;
     font-size: 1em;
+    text-decoration: none;
+    color: #204356;
+    > a {
+      padding: 0 !important;
+    }
+
     background: none;
     border: 0;
     cursor: pointer;
@@ -77,7 +83,12 @@ const NavStyles = styled.ul`
     }
     &:hover,
     &:focus {
+      background: #204356;
+      color: white;
       outline: none;
+      > a {
+        color: white;
+      }
       &:after {
         width: calc(100% - 60px);
       }
@@ -111,8 +122,12 @@ class Header extends Component {
             <Offerings />
             <a href="/#section-features">Team</a>
             <a>Portfolio</a>
-            <a>Clients</a>
-            <a>Contact</a>
+            <Link to="/clients">
+              <a>Clients</a>
+            </Link>
+            <Link to="/contact">
+              <a>Contact</a>
+            </Link>
           </div>
         </NavStyles>
         <div className="navigation">

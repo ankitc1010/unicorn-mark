@@ -45,6 +45,7 @@ const Page = styled.div`
   margin: 0 auto;
   ul {
     padding: 0 0 0 5rem;
+    font-size: 2rem;
   }
   .main {
     flex-grow: 2;

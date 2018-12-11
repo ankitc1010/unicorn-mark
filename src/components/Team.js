@@ -40,9 +40,11 @@ const TeamMember = styled.div`
     p {
       font-size: 1.5rem;
       line-height: 2rem;
+      margin: 0.5rem 0;
     }
     > p:nth-child(2) {
       font-weight: bold;
+      font-size: 1.7rem;
     }
     > p:last-child {
       font-size: 1.2rem;

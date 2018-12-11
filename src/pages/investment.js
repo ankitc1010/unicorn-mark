@@ -25,7 +25,7 @@ const WebsitePage = () => (
           investors.
         </p>
         <p>
-          <ul>
+          <ol>
             <li>
               Market Size and Accessibility - Addressable and Addressed Market
             </li>
@@ -52,7 +52,7 @@ const WebsitePage = () => (
               Company Valuation, KPI Tracking Mechanisms and Risk Mitigation
               Plan
             </li>
-          </ul>
+          </ol>
         </p>
       </div>
       <div className="side">

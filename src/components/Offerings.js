@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
+import enhanceWithClickOutside from 'react-click-outside'
 import { Link } from 'gatsby'
 
 class Offerings extends Component {
   state = {
     show: false,
+  }
+
+  handleClickOutside = () => {
+    this.setState({
+      show: false,
+    })
   }
 
   render() {
@@ -15,20 +22,27 @@ class Offerings extends Component {
             show: true,
           })
         }
-        onMouseLeave={() => {
-          this.setState({
-            show: false,
-          })
-        }}
       >
         Offerings
         {show && (
           <div>
-            <a>Investment Branding and Strategy</a>
-            <a>Proof of Concept Development - Machine Learning Applications</a>
-            <a>Digital Branding and Content Marketing</a>
-            <a>Product and Customer Research</a>
-            <a>Custom E-Commerce Platform</a>
+            <Link to="/investment">
+              <a>Investment Branding and Strategy</a>
+            </Link>
+            <Link to="/machinelearning">
+              <a>
+                Proof of Concept Development - Machine Learning Applications
+              </a>
+            </Link>
+            <Link to="/branding">
+              <a>Digital Branding and Content Marketing</a>
+            </Link>
+            <Link to="/research">
+              <a>Product and Customer Research</a>
+            </Link>
+            <Link to="/website">
+              <a>Custom E-Commerce Platform</a>
+            </Link>
           </div>
         )}
       </a>
@@ -36,4 +50,4 @@ class Offerings extends Component {
   }
 }
 
-export default Offerings
+export default enhanceWithClickOutside(Offerings)

@@ -14,6 +14,7 @@ import styled from 'styled-components'
 
 import Nav from '../components/Nav'
 import Team from '../components/Team'
+import Footer from '../components/Footer'
 
 class IndexPage extends React.Component {
   render() {
@@ -410,110 +411,7 @@ class IndexPage extends React.Component {
           </section>
         </main>
 
-        <footer className="footer">
-          <div className="footer__logo-box">
-            <picture className="footer__logo">
-              <source
-                srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
-                media="(max-width: 37.5em)"
-              />
-              <img
-                srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
-                alt="Full logo"
-                src="img/logo-green-2x.png"
-              />
-            </picture>
-          </div>
-          <div className="row">
-            <div className="col-1-of-2">
-              <div className="footer__navigation">
-                <ul className="footer__list">
-                  <li className="footer__item">
-                    <a href="#" className="footer__link">
-                      Company
-                    </a>
-                  </li>
-                  <li className="footer__item">
-                    <a href="#" className="footer__link">
-                      Contact us
-                    </a>
-                  </li>
-                  <li className="footer__item">
-                    <a href="#" className="footer__link">
-                      Carrers
-                    </a>
-                  </li>
-                  <li className="footer__item">
-                    <a href="#" className="footer__link">
-                      Privacy policy
-                    </a>
-                  </li>
-                  <li className="footer__item">
-                    <a href="#" className="footer__link">
-                      Terms
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-1-of-2">
-              <p className="footer__copyright">
-                Built by{' '}
-                <a href="#" className="footer__link">
-                  UnicornMark
-                </a>{' '}
-                for his online course . Copyright &copy; by Unicorn Mark.
-              </p>
-            </div>
-          </div>
-        </footer>
-
-        <div className="popup" id="popup">
-          <div className="popup__content">
-            <div className="popup__left">
-              <img
-                src="img/nat-8.jpg"
-                alt="Tour photo"
-                className="popup__img"
-              />
-              <img
-                src="img/nat-9.jpg"
-                alt="Tour photo"
-                className="popup__img"
-              />
-            </div>
-            <div className="popup__right">
-              <a href="#section-tours" className="popup__close">
-                &times;
-              </a>
-              <h2 className="heading-secondary u-margin-bottom-small">
-                Start booking now
-              </h2>
-              <h3 className="heading-tertiary u-margin-bottom-small">
-                Important &ndash; Please read these terms before booking
-              </h3>
-              <p className="popup__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed
-                sed risus pretium quam. Aliquam sem et tortor consequat id.
-                Volutpat odio facilisis mauris sit amet massa vitae. Mi bibendum
-                neque egestas congue. Placerat orci nulla pellentesque dignissim
-                enim sit. Vitae semper quis lectus nulla at volutpat diam ut
-                venenatis. Malesuada pellentesque elit eget gravida cum sociis
-                natoque penatibus et. Proin fermentum leo vel orci porta non
-                pulvinar neque laoreet. Gravida neque convallis a cras semper.
-                Molestie at elementum eu facilisis sed odio morbi quis. Faucibus
-                vitae aliquet nec ullamcorper sit amet risus nullam eget. Nam
-                libero justo laoreet sit. Amet massa vitae tortor condimentum
-                lacinia quis vel eros donec. Sit amet facilisis magna etiam.
-                Imperdiet sed euismod nisi porta.
-              </p>
-              <a href="#" className="btn btn--green">
-                Book now
-              </a>
-            </div>
-          </div>
-        </div>
+        <Footer />
       </Fragment>
     )
   }
