@@ -13,6 +13,7 @@ import team2 from '../assets/img/team3.png'
 import styled from 'styled-components'
 
 import Nav from '../components/Nav'
+import Team from '../components/Team'
 
 class IndexPage extends React.Component {
   render() {
@@ -107,11 +108,11 @@ class IndexPage extends React.Component {
                     </h4>
                     <div className="card__details">
                       <ul>
-                        <li>3 day tours</li>
-                        <li>Up to 30 people</li>
-                        <li>2 tour guides</li>
-                        <li>Sleep in cozy hotels</li>
-                        <li>Difficulty: easy</li>
+                        <li>Brand Identity</li>
+                        <li>Sentiment Analysis Report</li>
+                        <li>Peer Group Analysis</li>
+                        <li>Brand Keyword/Phrases</li>
+                        <li>Digital Marketing Blueprint</li>
                       </ul>
                     </div>
                   </div>
@@ -214,7 +215,7 @@ class IndexPage extends React.Component {
               <div className="col-1-of-3">
                 <div className="card">
                   <div className="card__side card__side--front">
-                    <div className="card__picture card__picture--3">&nbsp;</div>
+                    <div className="card__picture card__picture--4">&nbsp;</div>
                     <h4 className="card__heading">
                       <span className="card__heading-span card__heading-span--3">
                         Product Research
@@ -251,7 +252,7 @@ class IndexPage extends React.Component {
               <div className="col-1-of-3">
                 <div className="card">
                   <div className="card__side card__side--front">
-                    <div className="card__picture card__picture--3">&nbsp;</div>
+                    <div className="card__picture card__picture--5">&nbsp;</div>
                     <h4 className="card__heading">
                       <span className="card__heading-span card__heading-span--3">
                         Websites and Webstores
@@ -300,10 +301,7 @@ class IndexPage extends React.Component {
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">Our Team</h2>
             </div>
-
-            <div className="row">
-              <img src={team2} style={{ width: '100%' }} />
-            </div>
+            <Team />
           </section>
 
           {/* <section className="section-stories">
