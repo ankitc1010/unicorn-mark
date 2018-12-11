@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import image from '../assets/img/cool.webp'
+import image from '../assets/img/website.png'
 
 import Nav from '../components/Nav'
 
@@ -12,7 +12,7 @@ const WebsitePage = () => (
     <Nav />
     <Page>
       <div className="main">
-        <h1>Strong Values: The Language We Speak</h1>
+        <h1>Website and Webstores</h1>
         <p>
           Since its founding, BCG has grown at an extraordinary rate without
           diminishing the unique qualities that make people want to work for—and

@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 import Offerings from './Offerings'
 
+import logo from '../assets/img/logo.png'
+
 const NavStyles = styled.ul`
   margin: 0;
   padding: 0;
@@ -96,11 +98,13 @@ const Header = () => (
   <>
     <NavStyles>
       <div className="logo">
-        <a>LOGO</a>
+        <a>
+          <img src={logo} height={35} />
+        </a>
       </div>
       <div className="rest">
         <Offerings />
-        <a>Teams</a>
+        <a>Team</a>
         <a>Portfolio</a>
         <a>Clients</a>
         <a>Contact</a>

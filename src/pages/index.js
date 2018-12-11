@@ -7,6 +7,8 @@ import logo from '../assets/img/logo.png'
 import speed from '../assets/img/speed.png'
 import scalable from '../assets/img/scalable.png'
 import stable from '../assets/img/stable.png'
+import team1 from '../assets/img/team1.png'
+import team2 from '../assets/img/team3.png'
 
 import styled from 'styled-components'
 
@@ -26,72 +28,12 @@ class IndexPage extends React.Component {
             </h1>
 
             <a href="#section-tours" className="btn btn--white btn--animated">
-              Show me the work
+              Offerings
             </a>
           </div>
         </header>
 
         <main>
-          {/* <section className="section-about">
-            <div className="u-center-text u-margin-bottom-big">
-              <h2 className="heading-secondary">
-                Exciting tours for adventurous people
-              </h2>
-            </div>
-
-            <div className="row">
-              <div className="col-1-of-2">
-                <h3 className="heading-tertiary u-margin-bottom-small">
-                  You're going to fall in love with nature
-                </h3>
-                <p className="paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aperiam, ipsum sapiente aspernatur libero repellat quis
-                  consequatur ducimus quam nisi exercitationem omnis earum qui.
-                </p>
-
-                <h3 className="heading-tertiary u-margin-bottom-small">
-                  Live adventures like you never have before
-                </h3>
-                <p className="paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores nulla deserunt voluptatum nam.
-                </p>
-
-                <a href="#" className="btn-text">
-                  Learn more &rarr;
-                </a>
-              </div>
-              <div className="col-1-of-2">
-                <div className="composition">
-                  <img
-                    srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
-                    sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                    alt="Photo 1"
-                    className="composition__photo composition__photo--p1"
-                    src="img/nat-1-large.jpg"
-                  />
-
-                  <img
-                    srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
-                    sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                    alt="Photo 2"
-                    className="composition__photo composition__photo--p2"
-                    src="img/nat-2-large.jpg"
-                  />
-
-                  <img
-                    srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
-                    sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                    alt="Photo 3"
-                    className="composition__photo composition__photo--p3"
-                    src="img/nat-3-large.jpg"
-                  />
-                </div>
-              </div>
-            </div>
-          </section> */}
-
           {/* <section className="section-features">
             <div className="row">
               <div className="col-1-of-4">
@@ -146,7 +88,7 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-          </section> */}
+          </section>  */}
 
           <section className="section-tours" id="section-tours">
             <div className="u-center-text u-margin-bottom-big">
@@ -354,7 +296,17 @@ class IndexPage extends React.Component {
             </div> */}
           </section>
 
-          <section className="section-stories">
+          <section className="section-about">
+            <div className="u-center-text u-margin-bottom-big">
+              <h2 className="heading-secondary">Our Team</h2>
+            </div>
+
+            <div className="row">
+              <img src={team2} style={{ width: '100%' }} />
+            </div>
+          </section>
+
+          {/* <section className="section-stories">
             <div className="bg-video">
               <video className="bg-video__content" autoplay muted loop>
                 <source src="img/video.mp4" type="video/mp4" />
@@ -502,7 +454,7 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </main>
 
         <footer className="footer">
@@ -555,16 +507,9 @@ class IndexPage extends React.Component {
               <p className="footer__copyright">
                 Built by{' '}
                 <a href="#" className="footer__link">
-                  Jonas Schmedtmann
+                  UnicornMark
                 </a>{' '}
-                for his online course{' '}
-                <a href="#" className="footer__link">
-                  Advanced CSS and Sass
-                </a>
-                . Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to
-                use this webpage for both personal and commercial use, but NOT
-                to claim it as your own design. A credit to the original author,
-                Jonas Schmedtmann, is of course highly appreciated!
+                for his online course . Copyright &copy; by Unicorn Mark.
               </p>
             </div>
           </div>
