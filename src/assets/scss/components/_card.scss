@@ -76,12 +76,13 @@
         }
 
         &--4 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
             url(../img/branding.png);
+            background-position: 0px -4.8rem;
         }
 
         &--5 {
-            background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
             url(../img/website.png);
         }
     }
@@ -195,7 +196,10 @@
         background-color: $color-white;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
         &__picture {
-            height: 10rem;
+            height: 30rem;
+            &--4 {
+                background-position: 0px 0px;
+            }
         }
         &__heading {
             top: 6rem;

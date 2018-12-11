@@ -14,62 +14,83 @@ const WebsitePage = () => (
       <div className="main">
         <h1>Investment Branding and Strategy</h1>
         <p>
-          Since its founding, BCG has grown at an extraordinary rate without
-          diminishing the unique qualities that make people want to work for—and
-          with—the firm. It’s an exceptional feat, and it’s due in no small part
-          to our values.
+          Investment Branding is a set of professional documents which
+          articulates a well-researched business opportunity and a rational plan
+          towards the achievement of scale.
         </p>
         <img src={image} />
         <p>
-          A strong culture anchored in a clear set of values is essential to
-          building a global organization capable of making a real difference.
-          Generations of partners have kept BCG’s values alive and made them
-          part of the firm’s common language through writing, storytelling, and
-          mentoring. But it wasn’t until 1990 that John Clarkeson, CEO at the
-          time, helped draft a formal statement describing each of these values
-          and why each one matters. Succeeding CEOs have reevaluated and
-          reaffirmed what BCG stands for, maintaining an impressive continuity.
-          These values will continue to underpin everything the firm does to
-          maintain its leading position in the marketplace and remain such a
-          rewarding, inspiring place to work.
+          These documents form the bedrock of a validated and stable business
+          strategy, demonstrate diligence and improve terms of negotiation with
+          investors.
+        </p>
+        <p>
+          <ul>
+            <li>
+              Market Size and Accessibility - Addressable and Addressed Market
+            </li>
+            <li>Analysis of Competitors and Benchmark KPI Identification</li>
+            <li>
+              Product Roadmap and Service Design with Customer
+              Research/Validation
+            </li>
+            <li>Core Branding and Comparative Value Proposition Design</li>
+            <li>
+              Customer Prioritization, Acquisition Cost and Sales Pitch
+              Prioritization
+            </li>
+            <li>
+              Organization Structure and Administrative Plan for Sustainable
+              Growth
+            </li>
+            <li>Present Team, Talent Acquisition Plan and Salary Costs</li>
+            <li>
+              Cash Flow Plan with Income Statement and Balance Sheet Forecasting
+            </li>
+            <li>Funding Requirement and Planned Expenditure with ROI</li>
+            <li>
+              Company Valuation, KPI Tracking Mechanisms and Risk Mitigation
+              Plan
+            </li>
+          </ul>
         </p>
       </div>
       <div className="side">
         <Card>
-          <h2> Case Studies</h2>
+          <h2> Ream More</h2>
           <div>
             <div>
               <span>1</span>
               <div>
-                <p>Case study one</p>
-                <p>Small Description</p>
+                <p>Investment Branding 101</p>
+                <p>What and Why of Investment Branding</p>
               </div>
             </div>
             <div>
               <span>2</span>
               <div>
-                <p>Case study two</p>
-                <p>Small Description</p>
+                <p>Actionable Market Sizing </p>
+                <p>Opportunity assessment vs Plan of action for sales</p>
               </div>
             </div>
           </div>
         </Card>
 
         <Card>
-          <h2> Past Work</h2>
+          <h2> Case Studies</h2>
           <div>
             <div>
               <span>1</span>
               <div>
-                <p>Past work one</p>
-                <p>Small Description</p>
+                <p>Sales pitch and customer prioritization</p>
+                <p>A B2B software startup</p>
               </div>
             </div>
             <div>
               <span>2</span>
               <div>
-                <p>Past work two</p>
-                <p>Small Description</p>
+                <p>Investment evaluation</p>
+                <p> A retail software startup</p>
               </div>
             </div>
           </div>

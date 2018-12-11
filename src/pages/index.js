@@ -65,9 +65,9 @@ class IndexPage extends React.Component {
                   <div className="card__side card__side--back card__side--back-1">
                     <div className="card__cta">
                       <div className="card__price-box">
-                        <p className="card__price-only">To</p>
+                        <p className="card__price-only">To build</p>
                         <p className="card__price-value">
-                          Build Investment Branding Documents
+                          Investment Branding Documents
                         </p>
                       </div>
                       <Link
@@ -125,7 +125,10 @@ class IndexPage extends React.Component {
                 <div className="card">
                   <div className="card__side card__side--front">
                     <div className="card__picture card__picture--3">&nbsp;</div>
-                    <h4 className="card__heading">
+                    <h4
+                      className="card__heading"
+                      style={{ fontSize: '2.1rem' }}
+                    >
                       <span className="card__heading-span card__heading-span--3">
                         Digital Content Marketing
                       </span>
@@ -141,9 +144,9 @@ class IndexPage extends React.Component {
                   <div className="card__side card__side--back card__side--back-3">
                     <div className="card__cta">
                       <div className="card__price-box">
-                        <p className="card__price-only">To</p>
+                        <p className="card__price-only">To do</p>
                         <p className="card__price-value">
-                          Do Digital Content Marketing
+                          Digital Content Marketing
                         </p>
                       </div>
                       <Link
@@ -164,7 +167,10 @@ class IndexPage extends React.Component {
                 <div className="card">
                   <div className="card__side card__side--front">
                     <div className="card__picture card__picture--4">&nbsp;</div>
-                    <h4 className="card__heading">
+                    <h4
+                      className="card__heading"
+                      style={{ fontSize: '2.1rem' }}
+                    >
                       <span className="card__heading-span card__heading-span--3">
                         Product and Customer Research
                       </span>
@@ -180,9 +186,9 @@ class IndexPage extends React.Component {
                   <div className="card__side card__side--back card__side--back-3">
                     <div className="card__cta">
                       <div className="card__price-box">
-                        <p className="card__price-only">To</p>
+                        <p className="card__price-only">To do</p>
                         <p className="card__price-value">
-                          Do Product and Customer Research
+                          Product and Customer Research
                         </p>
                       </div>
                       <Link
@@ -201,7 +207,10 @@ class IndexPage extends React.Component {
                 <div className="card">
                   <div className="card__side card__side--front">
                     <div className="card__picture card__picture--5">&nbsp;</div>
-                    <h4 className="card__heading">
+                    <h4
+                      className="card__heading"
+                      style={{ fontSize: '2.1rem' }}
+                    >
                       <span className="card__heading-span card__heading-span--3">
                         Bots and E-commerce Platform
                       </span>
@@ -217,7 +226,7 @@ class IndexPage extends React.Component {
                   <div className="card__side card__side--back card__side--back-3">
                     <div className="card__cta">
                       <div className="card__price-box">
-                        <p className="card__price-only">For</p>
+                        <p className="card__price-only">To build</p>
                         <p className="card__price-value">
                           Bots and E-commerce Platform
                         </p>
