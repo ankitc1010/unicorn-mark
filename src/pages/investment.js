@@ -7,10 +7,10 @@ import '../assets/scss/main.scss'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 
-import { Page, Card } from '../components/styled/PageRelated'
+import { Wrapper, Page, Card } from '../components/styled/PageRelated'
 
 const WebsitePage = () => (
-  <div>
+  <Wrapper>
     <Nav />
     <Page>
       <div className="main">
@@ -100,7 +100,7 @@ const WebsitePage = () => (
       </div>
     </Page>
     <Footer />
-  </div>
+  </Wrapper>
 )
 
 export default WebsitePage

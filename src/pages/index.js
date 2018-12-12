@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
 
+import { Wrapper } from '../components/styled/PageRelated'
+
 import '../assets/scss/main.scss'
 
 import logo from '../assets/img/logo.png'
@@ -20,7 +22,7 @@ import Contact from '../components/Contact'
 class IndexPage extends React.Component {
   render() {
     return (
-      <Fragment>
+      <Wrapper>
         <Nav home />
 
         <header className="header">
@@ -346,7 +348,7 @@ class IndexPage extends React.Component {
           </section>*/}
         </main>
         <Footer />
-      </Fragment>
+      </Wrapper>
     )
   }
 }

@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 
+const Wrapper = styled.div`
+  font-family: 'Nunito', sans-serif;
+`
 const Card = styled.div`
+  font-family: 'Nunito', sans-serif;
   margin-top: 5rem;
   margin-left: 2rem;
   margin-right: 1rem;
@@ -97,4 +101,4 @@ const Page = styled.div`
   }
 `
 
-export { Page, Card }
+export { Wrapper, Page, Card }

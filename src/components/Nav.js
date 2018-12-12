@@ -10,6 +10,7 @@ const NavStyles = styled.ul`
   padding: 0;
   display: flex;
   font-size: 2rem;
+  font-family: 'Nunito', sans-serif;
   border-top: 2px solid black;
   .logo {
     float: left;
