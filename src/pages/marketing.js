@@ -25,11 +25,11 @@ const WebsitePage = () => (
           for companies with demonstrable results.
         </p>
         <p>
-          <ul>
+          <ol>
             <li>Digital Audit for PC & Mobile</li>
             <li>Digital Spend & Content Analysis</li>
             <li>Digital Channels & Content Pipeline Setup</li>
-          </ul>
+          </ol>
         </p>
       </div>
       <div className="side">

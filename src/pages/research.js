@@ -25,11 +25,11 @@ const WebsitePage = () => (
           effectiveness and sales conversion rates with measurable results.
         </p>
         <p>
-          <ul>
+          <ol>
             <li> Product R&D Roadmap</li>
             <li>Sales and Distribution Roadmap</li>
             <li>Customer Communications Strategy</li>
-          </ul>
+          </ol>
         </p>
       </div>
       <div className="side">

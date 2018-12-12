@@ -27,23 +27,11 @@ const WebsitePage = () => (
         </p>
         <p>
           <ol>
-            <li>
-              Organization Audit for AI Readiness - eg. Data science
-              infrastructure selection
-            </li>
-            <li>
-              Customer Convenience AI - eg. Product and Vendor Recommendation
-              Systems
-            </li>
-            <li>
-              Customer Interaction AI - eg. Sales Automation and Support Systems
-            </li>
-            <li>
-              Business Intelligence AI - eg. Sales Target Prioritization Systems
-            </li>
-            <li>
-              Internal Process Optimization AI - Inventory Monitoring Systems
-            </li>
+            <li>Organization Audit for AI Readiness</li>
+            <li>Customer Convenience AI</li>
+            <li>Customer Interaction AI</li>
+            <li>Business Intelligence AI</li>
+            <li>Internal Process Optimization AI</li>
           </ol>
         </p>
       </div>

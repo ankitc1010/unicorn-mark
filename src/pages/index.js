@@ -80,7 +80,7 @@ class IndexPage extends React.Component {
                           color: 'red',
                         }}
                       >
-                        <a className="btn btn--white">Read More!</a>
+                        <a className="btn btn--white">Tell me more</a>
                       </Link>
                     </div>
                   </div>
@@ -93,7 +93,8 @@ class IndexPage extends React.Component {
                     <div className="card__picture card__picture--2">&nbsp;</div>
                     <h4 className="card__heading">
                       <span className="card__heading-span card__heading-span--2">
-                        Machine Learning POCs
+                        Machine Learning POC
+                        <span style={{ textTransform: 'lowercase' }}>s</span>
                       </span>
                     </h4>
                     <div className="card__details">
@@ -118,7 +119,7 @@ class IndexPage extends React.Component {
                           color: 'red',
                         }}
                       >
-                        <a className="btn btn--white">Read More!</a>
+                        <a className="btn btn--white">Tell me more</a>
                       </Link>
                     </div>
                   </div>
@@ -140,8 +141,8 @@ class IndexPage extends React.Component {
                     <div className="card__details">
                       <ul>
                         Digital Content Marketing is a set of social and digital
-                        activities which ensures you are relevant and discussed
-                        in the digital community with minimal budgets
+                        activities which ensures sustained relevance in the
+                        digital community with minimal budgets
                       </ul>
                     </div>
                   </div>
@@ -159,7 +160,7 @@ class IndexPage extends React.Component {
                           color: 'red',
                         }}
                       >
-                        <a className="btn btn--white">Read More!</a>
+                        <a className="btn btn--white">Tell me more</a>
                       </Link>
                     </div>
                   </div>
@@ -181,9 +182,10 @@ class IndexPage extends React.Component {
                     </h4>
                     <div className="card__details">
                       <ul>
-                        Product and Customer Research is a study that ensures
-                        you get maximum customer revenue with minimum developers
-                        and salespersons through comparative ROI evaluation
+                        Product and Customer Research is a set of processes that
+                        ensures maximum customer revenue with minimum developers
+                        and salespersons through evaluation of comparative ROI
+                        impact
                       </ul>
                     </div>
                   </div>
@@ -201,7 +203,7 @@ class IndexPage extends React.Component {
                           color: 'red',
                         }}
                       >
-                        <a className="btn btn--white">Read More!</a>
+                        <a className="btn btn--white">Tell me more</a>
                       </Link>
                     </div>
                   </div>
@@ -241,7 +243,7 @@ class IndexPage extends React.Component {
                           color: 'red',
                         }}
                       >
-                        <a className="btn btn--white">Read More!</a>
+                        <a className="btn btn--white">Tell me more</a>
                       </Link>
                     </div>
                   </div>

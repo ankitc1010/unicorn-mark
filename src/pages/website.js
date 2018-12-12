@@ -59,7 +59,7 @@ const WebsitePage = () => (
               <span>1</span>
               <div>
                 <p>Sales Automation Bots </p>
-                <p>SAn e-commerce startup</p>
+                <p>An e-commerce startup</p>
               </div>
             </div>
             <div>
