@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import image from '../assets/img/machinelearning.png'
 
+import '../assets/scss/main.scss'
 import Nav from '../components/Nav'
 
 import { Page, Card } from '../components/styled/PageRelated'

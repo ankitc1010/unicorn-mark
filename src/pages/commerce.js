@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
+import '../assets/scss/main.scss'
 import image from '../assets/img/cool.webp'
 
 import Nav from '../components/Nav'
