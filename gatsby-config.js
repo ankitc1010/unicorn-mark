@@ -31,5 +31,12 @@ module.exports = {
     'gatsby-plugin-offline',
     `gatsby-plugin-netlify`,
     `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 1016053,
+        sv: 6,
+      },
+    },
   ],
 }

@@ -7,6 +7,7 @@
     "babel-plugin-styled-components": "^1.9.3",
     "gatsby": "^2.0.0",
     "gatsby-plugin-google-fonts": "0.0.4",
+    "gatsby-plugin-hotjar": "^1.0.1",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-offline": "^2.0.5",
