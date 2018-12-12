@@ -58,7 +58,7 @@ const WebsitePage = () => (
       </div>
       <div className="side">
         <Card>
-          <h2> Ream More</h2>
+          <h2> Read More</h2>
           <div>
             <div>
               <span>1</span>

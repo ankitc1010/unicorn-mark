@@ -105,9 +105,9 @@ class IndexPage extends React.Component {
                   <div className="card__side card__side--back card__side--back-2">
                     <div className="card__cta">
                       <div className="card__price-box">
-                        <p className="card__price-only">To</p>
+                        <p className="card__price-only">To build</p>
                         <p className="card__price-value">
-                          Build Machine Learning Prototypes
+                          Machine Learning Prototypes
                         </p>
                       </div>
                       <Link
