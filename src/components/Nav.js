@@ -155,10 +155,10 @@ class Header extends Component {
           <nav className="navigation__nav">
             <ul className="navigation__list">
               <li className="navigation__item">
-                <a href="#" className="navigation__link">
+                <Link to="/" className="navigation__link">
                   <span>01</span>
-                  <Link to="/">Home</Link>
-                </a>
+                  Home
+                </Link>
               </li>
               <li className="navigation__item">
                 <Link to="/contact" className="navigation__link">
