@@ -24,7 +24,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/img/logo-major.png', // This path is relative to the root of the site.
+        icon: './src/assets/img/logo-major.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
@@ -41,7 +41,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: '/src/assets/img/logo-major.png',
+        logo: './src/assets/img/logo-major.png',
 
         icons: {
           android: true,
