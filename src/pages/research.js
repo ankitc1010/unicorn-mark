@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import Helemt from 'react-helmet'
+import Helmet from 'react-helmet'
 import image from '../assets/img/branding.png'
 
 import '../assets/scss/main.scss'

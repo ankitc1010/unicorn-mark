@@ -19,6 +19,7 @@ import Nav from '../components/Nav'
 import Team from '../components/Team'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
+import Clients from '../components/Clients'
 
 class IndexPage extends React.Component {
   render() {
@@ -284,6 +285,7 @@ class IndexPage extends React.Component {
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">Clients</h2>
             </div>
+            <Clients />
           </section>
 
           {/* <section className="section-stories">
