@@ -1,12 +1,10 @@
 import React from 'react'
 
-import Nav from './Nav'
 import Footer from './Footer'
 
 const Contact = () => (
   <>
-    <Nav />
-    <section className="section-book">
+    <section className="section-book" id="contact">
       <div className="row">
         <div className="book">
           <div className="book__form">

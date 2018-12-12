@@ -78,8 +78,31 @@
     }
 
     &__link {
+        position: relative;
+        div {
+            position: absolute;
+            top:-6rem;
+            left: -2rem;
+            background: white;
+            font-size: 1.8rem;
+            z-index: 200;
+            width: 120%;
+            a {
+                text-decoration: none;
+            }
+            >a {
+                padding: 1rem 2rem;
+                text-decoration: none;
+                color: black;
+                text-align: left !important;
+                text-transform: capitalize;
+                display: block;
+                border: 1px solid black;
+            }
+        }
         &:link,
         &:visited {
+            z-index: 150;
             display: inline-block;
             font-size: 3rem;
             font-weight: 300;

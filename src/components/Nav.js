@@ -114,17 +114,21 @@ class Header extends Component {
   }
   render() {
     const { selected } = this.state
+    const { home } = this.props
     return (
       <>
         <NavStyles>
           <div className="logo" />
           <div className="rest">
+            {!home && <Link to="/">Home</Link>}
             <Offerings />
-            <a href="/#section-features">Team</a>
-            <a>Portfolio</a>
-            <Link to="/clients">
-              <a>Clients</a>
-            </Link>
+            {home && (
+              <>
+                <a href="/#section-features">Team</a>
+                <a href="#clients">Clients</a>
+              </>
+            )}
+
             <Link to="/contact">
               <a>Contact</a>
             </Link>
@@ -151,37 +155,21 @@ class Header extends Component {
           <nav className="navigation__nav">
             <ul className="navigation__list">
               <li className="navigation__item">
-                <a
-                  href="/#section-tours"
-                  className="navigation__link"
-                  onClick={this.toggle}
-                >
+                <a href="#" className="navigation__link">
                   <span>01</span>
-                  Offerings
+                  <Link to="/">Home</Link>
                 </a>
               </li>
               <li className="navigation__item">
-                <a href="#" className="navigation__link" onClick={this.toggle}>
+                <Link to="/contact" className="navigation__link">
                   <span>02</span>
-                  Teams
-                </a>
-              </li>
-              <li className="navigation__item">
-                <a href="#" className="navigation__link" onClick={this.toggle}>
-                  <span>03</span>
-                  Portfolio
-                </a>
-              </li>
-              <li className="navigation__item">
-                <a href="#" className="navigation__link" onClick={this.toggle}>
-                  <span>04</span>
-                  Clients
-                </a>
-              </li>
-              <li className="navigation__item">
-                <a href="#" className="navigation__link" onClick={this.toggle}>
-                  <span>05</span>
                   Contact
+                </Link>
+              </li>
+              <li className="navigation__item">
+                <a href="#" className="navigation__link">
+                  <span>03</span>
+                  <Offerings />
                 </a>
               </li>
             </ul>

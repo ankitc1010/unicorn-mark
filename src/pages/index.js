@@ -15,12 +15,13 @@ import styled from 'styled-components'
 import Nav from '../components/Nav'
 import Team from '../components/Team'
 import Footer from '../components/Footer'
+import Contact from '../components/Contact'
 
 class IndexPage extends React.Component {
   render() {
     return (
       <Fragment>
-        <Nav />
+        <Nav home />
 
         <header className="header">
           <div className="header__text-box">
@@ -262,7 +263,7 @@ class IndexPage extends React.Component {
             <Team />
           </section>
 
-          <section className="section-tours" id="section-tours">
+          <section className="section-tours" id="clients">
             <div className="u-center-text u-margin-bottom-big">
               <h2 className="heading-secondary">Clients</h2>
             </div>
@@ -343,81 +344,8 @@ class IndexPage extends React.Component {
               </a>
             </div>
           </section>*/}
-
-          <section className="section-book">
-            <div className="row">
-              <div className="book">
-                <div className="book__form">
-                  <form action="#" className="form">
-                    <div className="u-margin-bottom-medium">
-                      <h2 className="heading-secondary">Enquire now</h2>
-                    </div>
-
-                    <div className="form__group">
-                      <input
-                        type="text"
-                        className="form__input"
-                        placeholder="Full name"
-                        id="name"
-                        required
-                      />
-                      <label for="name" className="form__label">
-                        Full name
-                      </label>
-                    </div>
-
-                    <div className="form__group">
-                      <input
-                        type="email"
-                        className="form__input"
-                        placeholder="Email address"
-                        id="email"
-                        required
-                      />
-                      <label for="email" className="form__label">
-                        Email address
-                      </label>
-                    </div>
-
-                    <div className="form__group u-margin-bottom-medium">
-                      <div className="form__radio-group">
-                        <input
-                          type="radio"
-                          className="form__radio-input"
-                          id="small"
-                          name="size"
-                        />
-                        <label for="small" className="form__radio-label">
-                          <span className="form__radio-button" />
-                          Option 1
-                        </label>
-                      </div>
-
-                      <div className="form__radio-group">
-                        <input
-                          type="radio"
-                          className="form__radio-input"
-                          id="large"
-                          name="size"
-                        />
-                        <label for="large" className="form__radio-label">
-                          <span className="form__radio-button" />
-                          Option 2
-                        </label>
-                      </div>
-                    </div>
-
-                    <div className="form__group">
-                      <button className="btn btn--green">Submit &rarr;</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </section>
+          <Contact />
         </main>
-
-        <Footer />
       </Fragment>
     )
   }
