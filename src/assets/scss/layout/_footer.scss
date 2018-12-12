@@ -2,6 +2,7 @@
     background-color: $color-grey-dark-3;
     padding: 10rem 0;
     font-size: 1.4rem;
+    margin-top: 4rem;
     color: $color-grey-light-1;
 
     @include respond(tab-port) {

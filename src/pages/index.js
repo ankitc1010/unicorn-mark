@@ -344,8 +344,8 @@ class IndexPage extends React.Component {
               </a>
             </div>
           </section>*/}
-          <Contact />
         </main>
+        <Footer />
       </Fragment>
     )
   }
