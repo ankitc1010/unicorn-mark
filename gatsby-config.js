@@ -24,7 +24,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/img/logo.png', // This path is relative to the root of the site.
+        icon: 'src/assets/img/logo-major.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
@@ -36,6 +36,25 @@ module.exports = {
       options: {
         id: 1016053,
         sv: 6,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: '/src/assets/img/logo-major.png',
+
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          opengraph: false,
+          twitter: false,
+          yandex: false,
+          windows: false,
+        },
       },
     },
   ],
