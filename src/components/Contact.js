@@ -45,34 +45,6 @@ const Contact = () => (
                 </label>
               </div>
 
-              <div className="form__group u-margin-bottom-medium">
-                <div className="form__radio-group">
-                  <input
-                    type="radio"
-                    className="form__radio-input"
-                    id="small"
-                    name="size"
-                  />
-                  <label for="small" className="form__radio-label">
-                    <span className="form__radio-button" />
-                    Option 1
-                  </label>
-                </div>
-
-                <div className="form__radio-group">
-                  <input
-                    type="radio"
-                    className="form__radio-input"
-                    id="large"
-                    name="size"
-                  />
-                  <label for="large" className="form__radio-label">
-                    <span className="form__radio-button" />
-                    Option 2
-                  </label>
-                </div>
-              </div>
-
               <div className="form__group">
                 <button className="btn btn--green">Submit &rarr;</button>
               </div>

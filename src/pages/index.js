@@ -184,8 +184,7 @@ class IndexPage extends React.Component {
                       <ul>
                         Product and Customer Research is a set of processes that
                         ensures maximum customer revenue with minimum developers
-                        and salespersons through evaluation of comparative ROI
-                        impact
+                        and salespersons through evaluation of ROI impact
                       </ul>
                     </div>
                   </div>
