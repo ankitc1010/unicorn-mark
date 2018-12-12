@@ -12,44 +12,40 @@ const WebsitePage = () => (
     <Nav />
     <Page>
       <div className="main">
-        <h1>Website and Webstores</h1>
+        <h1>Bots and E-commerce Platform</h1>
         <p>
-          Since its founding, BCG has grown at an extraordinary rate without
-          diminishing the unique qualities that make people want to work for—and
-          with—the firm. It’s an exceptional feat, and it’s due in no small part
-          to our values.
+          Bots and E-commerce Platform provides automation and optimization
+          technology to seamlessly integrate business operations for efficiency.
         </p>
         <img src={image} />
         <p>
-          A strong culture anchored in a clear set of values is essential to
-          building a global organization capable of making a real difference.
-          Generations of partners have kept BCG’s values alive and made them
-          part of the firm’s common language through writing, storytelling, and
-          mentoring. But it wasn’t until 1990 that John Clarkeson, CEO at the
-          time, helped draft a formal statement describing each of these values
-          and why each one matters. Succeeding CEOs have reevaluated and
-          reaffirmed what BCG stands for, maintaining an impressive continuity.
-          These values will continue to underpin everything the firm does to
-          maintain its leading position in the marketplace and remain such a
-          rewarding, inspiring place to work.
+          The bots and the platform provide businesses the technology required
+          to immediately implement metrics-driven business operations and unlock
+          efficiency.
+        </p>
+        <p>
+          <ol>
+            <li>E-commerce Platform</li>
+            <li>Process Automation Bots</li>
+          </ol>
         </p>
       </div>
       <div className="side">
         <Card>
-          <h2> Case Studies</h2>
+          <h2> Read More</h2>
           <div>
             <div>
               <span>1</span>
               <div>
-                <p>Case study one</p>
-                <p>Small Description</p>
+                <p>Bots in Business (Coming Soon)</p>
+                <p>High impact automation areas</p>
               </div>
             </div>
             <div>
               <span>2</span>
               <div>
-                <p>Case study two</p>
-                <p>Small Description</p>
+                <p>E-commerce platform optimization (Coming Soon)</p>
+                <p>Integrating sales and marketing best practices</p>
               </div>
             </div>
           </div>
@@ -61,15 +57,15 @@ const WebsitePage = () => (
             <div>
               <span>1</span>
               <div>
-                <p>Past work one</p>
-                <p>Small Description</p>
+                <p>Sales Automation Bots </p>
+                <p>SAn e-commerce startup</p>
               </div>
             </div>
             <div>
               <span>2</span>
               <div>
-                <p>Past work two</p>
-                <p>Small Description</p>
+                <p>E-commerce platform for food businesses</p>
+                <p> A cloud kitchen startup</p>
               </div>
             </div>
           </div>

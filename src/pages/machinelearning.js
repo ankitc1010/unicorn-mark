@@ -14,62 +14,77 @@ const WebsitePage = () => (
       <div className="main">
         <h1>Proof of Concept Development - Machine Learning Applications</h1>
         <p>
-          Since its founding, BCG has grown at an extraordinary rate without
-          diminishing the unique qualities that make people want to work for—and
-          with—the firm. It’s an exceptional feat, and it’s due in no small part
-          to our values.
+          Machine Learning Proof-of-Concepts are custom-built prototype
+          applications which demonstrate and measure the scope of automation and
+          AI for your business
         </p>
         <img src={image} />
         <p>
-          A strong culture anchored in a clear set of values is essential to
-          building a global organization capable of making a real difference.
-          Generations of partners have kept BCG’s values alive and made them
-          part of the firm’s common language through writing, storytelling, and
-          mentoring. But it wasn’t until 1990 that John Clarkeson, CEO at the
-          time, helped draft a formal statement describing each of these values
-          and why each one matters. Succeeding CEOs have reevaluated and
-          reaffirmed what BCG stands for, maintaining an impressive continuity.
-          These values will continue to underpin everything the firm does to
-          maintain its leading position in the marketplace and remain such a
-          rewarding, inspiring place to work.
+          These prototypes help prioritize investments in AI and Machine
+          Learning for companies based on a clear ROI with demonstrable
+          applications.
+        </p>
+        <p>
+          <ol>
+            <li>
+              Organization Audit for AI Readiness - eg. Data science
+              infrastructure selection
+            </li>
+            <li>
+              Customer Convenience AI - eg. Product and Vendor Recommendation
+              Systems
+            </li>
+            <li>
+              Customer Interaction AI - eg. Sales Automation and Support Systems
+            </li>
+            <li>
+              Business Intelligence AI - eg. Sales Target Prioritization Systems
+            </li>
+            <li>
+              Internal Process Optimization AI - Inventory Monitoring Systems
+            </li>
+          </ol>
         </p>
       </div>
       <div className="side">
         <Card>
-          <h2> Case Studies</h2>
+          <h2> Read More</h2>
           <div>
             <div>
               <span>1</span>
               <div>
-                <p>Case study one</p>
-                <p>Small Description</p>
+                <p>Patient Health Monitoring</p>
+                <p>A healthcare AI startup</p>
               </div>
             </div>
             <div>
               <span>2</span>
               <div>
-                <p>Case study two</p>
-                <p>Small Description</p>
+                <p>Business Intelligence Dashboard</p>
+                <p>A healthcare devices startup</p>
               </div>
             </div>
           </div>
         </Card>
 
         <Card>
-          <h2> Past Work</h2>
+          <h2>Case Studies</h2>
           <div>
             <div>
               <span>1</span>
               <div>
-                <p>Past work one</p>
-                <p>Small Description</p>
+                <p>Identify and Prioritize AI Impact (Coming Soon)</p>
+                <p>Building an AI roadmap for your business</p>
               </div>
             </div>
             <div>
               <span>2</span>
               <div>
-                <p>Past work two</p>
-                <p>Small Description</p>
+                <p>
+                  Building an AI roadmap for your business Top Areas for AI
+                  Impact (Coming Soon)
+                </p>
+                <p>Customer-facing AI vs AI for Business Processes</p>
               </div>
             </div>
           </div>

@@ -262,6 +262,12 @@ class IndexPage extends React.Component {
             <Team />
           </section>
 
+          <section className="section-tours" id="section-tours">
+            <div className="u-center-text u-margin-bottom-big">
+              <h2 className="heading-secondary">Clients</h2>
+            </div>
+          </section>
+
           {/* <section className="section-stories">
             <div className="bg-video">
               <video className="bg-video__content" autoplay muted loop>

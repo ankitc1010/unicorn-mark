@@ -10,7 +10,11 @@ const Contact = () => (
       <div className="row">
         <div className="book">
           <div className="book__form">
-            <form action="#" className="form">
+            <form
+              action="https://formspree.io/amanalok@unicornmark.com"
+              method="POST"
+              className="form"
+            >
               <div className="u-margin-bottom-medium">
                 <h2 className="heading-secondary">Contact Us</h2>
               </div>
@@ -20,6 +24,7 @@ const Contact = () => (
                   type="text"
                   className="form__input"
                   placeholder="Full name"
+                  name="Name"
                   id="name"
                   required
                 />
@@ -34,6 +39,7 @@ const Contact = () => (
                   className="form__input"
                   placeholder="Email address"
                   id="email"
+                  name="Email"
                   required
                 />
                 <label for="email" className="form__label">

@@ -34,7 +34,7 @@ class Offerings extends Component {
                 Proof of Concept Development - Machine Learning Applications
               </a>
             </Link>
-            <Link to="/branding">
+            <Link to="/marketing">
               <a>Digital Branding and Content Marketing</a>
             </Link>
             <Link to="/research">

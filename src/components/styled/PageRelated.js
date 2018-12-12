@@ -47,6 +47,10 @@ const Page = styled.div`
     padding: 0 0 0 5rem;
     font-size: 2rem;
   }
+  ol {
+    padding: 0 0 0 5rem;
+    font-size: 2rem;
+  }
   .main {
     flex-grow: 2;
     width: 70%;
@@ -68,10 +72,14 @@ const Page = styled.div`
   }
   .side {
     flex-grow: 1;
+    max-width: 300px;
   }
   @media (max-width: 700px) {
     display: block !important;
     width: 98% !important;
+    .side {
+      max-width: 100%;
+    }
     .main {
       width: 90%;
       h1 {
