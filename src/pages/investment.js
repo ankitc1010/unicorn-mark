@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-
+import Helmet from 'react-helmet'
 import image from '../assets/img/investment.png'
 
 import '../assets/scss/main.scss'
@@ -12,6 +12,21 @@ import { Wrapper, Page, Card } from '../components/styled/PageRelated'
 const WebsitePage = () => (
   <Wrapper>
     <Nav />
+    <Helmet
+      title="Investment Branding and Strategy"
+      meta={[
+        {
+          name: 'description',
+          content:
+            'Investment Branding is a set of professional documents which articulates a well-researched business opportunity and a rational plan towards the achievement of scale.',
+        },
+        {
+          name: 'keywords',
+          content:
+            'marketing, strategy consulting, consulting, web development, development, branding, machine learning, pocs',
+        },
+      ]}
+    />
     <Page>
       <div className="main">
         <h1>Investment Branding and Strategy</h1>

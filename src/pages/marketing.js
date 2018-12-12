@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-
+import Helmet from 'react-helmet'
 import image from '../assets/img/marketing.png'
 
 import '../assets/scss/main.scss'
@@ -11,6 +11,21 @@ import { Wrapper, Page, Card } from '../components/styled/PageRelated'
 const WebsitePage = () => (
   <Wrapper>
     <Nav />
+    <Helmet
+      title="Digital Branding and Content Marketing"
+      meta={[
+        {
+          name: 'description',
+          content:
+            'Digital Content Marketing is a set of social and digital activities which ensures sustained relevance in the digital community with minimal budgets',
+        },
+        {
+          name: 'keywords',
+          content:
+            'marketing, strategy consulting, consulting, web development, development, branding, machine learning, pocs',
+        },
+      ]}
+    />
     <Page>
       <div className="main">
         <h1>Digital Branding and Content Marketing</h1>

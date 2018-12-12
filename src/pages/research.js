@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-
+import Helemt from 'react-helmet'
 import image from '../assets/img/branding.png'
 
 import '../assets/scss/main.scss'
@@ -11,6 +11,21 @@ import { Wrapper, Page, Card } from '../components/styled/PageRelated'
 const WebsitePage = () => (
   <Wrapper>
     <Nav />
+    <Helmet
+      title="Product and Customer Research"
+      meta={[
+        {
+          name: 'description',
+          content:
+            'Product and Customer Research is a study that ensures you get maximum customer revenue with minimum developers and salespersons through comparative ROI evaluation',
+        },
+        {
+          name: 'keywords',
+          content:
+            'marketing, strategy consulting, consulting, web development, development, branding, machine learning, pocs',
+        },
+      ]}
+    />
     <Page>
       <div className="main">
         <h1>Product and Customer Research</h1>

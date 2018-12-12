@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-
+import Helmet from 'react-helmet'
 import image from '../assets/img/machinelearning.png'
 
 import '../assets/scss/main.scss'
@@ -11,6 +11,21 @@ import { Wrapper, Page, Card } from '../components/styled/PageRelated'
 const WebsitePage = () => (
   <Wrapper>
     <Nav />
+    <Helmet
+      title="Proof of Concept Development - Machine Learning Applications"
+      meta={[
+        {
+          name: 'description',
+          content:
+            ' Machine Learning Proof-of-Concepts are custom-built prototype applications which demonstrate and measure the scope of automation and AI for your business',
+        },
+        {
+          name: 'keywords',
+          content:
+            'marketing, strategy consulting, consulting, web development, development, branding, machine learning, pocs',
+        },
+      ]}
+    />
     <Page>
       <div className="main">
         <h1>Proof of Concept Development - Machine Learning Applications</h1>

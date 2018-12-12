@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
+import Helmet from 'react-helmet'
 
 import { Wrapper } from '../components/styled/PageRelated'
 
@@ -24,7 +25,20 @@ class IndexPage extends React.Component {
     return (
       <Wrapper>
         <Nav home />
-
+        <Helmet
+          title="Unicorn Mark"
+          meta={[
+            {
+              name: 'description',
+              content: 'Brand and marketing science, for Sales and ROI',
+            },
+            {
+              name: 'keywords',
+              content:
+                'marketing, strategy consulting, consulting, web development, development, branding, machine learning, pocs',
+            },
+          ]}
+        />
         <header className="header">
           <div className="header__text-box">
             <h1 className="heading-primary">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-
+import Helmet from 'react-helmet'
 import image from '../assets/img/website.png'
 
 import '../assets/scss/main.scss'
@@ -11,6 +11,21 @@ import { Wrapper, Page, Card } from '../components/styled/PageRelated'
 const WebsitePage = () => (
   <Wrapper>
     <Nav />
+    <Helmet
+      title="Bots and E-commerce Platform"
+      meta={[
+        {
+          name: 'description',
+          content:
+            ' Bots and E-commerce Platform provides automation and optimization technology to seamlessly integrate business operations for efficiency.',
+        },
+        {
+          name: 'keywords',
+          content:
+            'marketing, strategy consulting, consulting, web development, development, branding, machine learning, pocs',
+        },
+      ]}
+    />
     <Page>
       <div className="main">
         <h1>Bots and E-commerce Platform</h1>
