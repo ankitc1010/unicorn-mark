@@ -2,6 +2,9 @@ import styled from 'styled-components'
 
 const Wrapper = styled.div`
   font-family: 'Nunito', sans-serif;
+  a {
+    text-decoration: none;
+  }
 `
 const Card = styled.div`
   font-family: 'Nunito', sans-serif;
