@@ -20,7 +20,7 @@ const Clients = styled.div`
   grid-gap: 2rem;
   margin: 0 1rem;
   img {
-    margin: auto 0;
+    margin: auto auto;
     width: 100%;
   }
   @media (max-width: 800px) {
@@ -36,13 +36,14 @@ class ClientSection extends Component {
         <img src={bookbyslot} style={{ background: 'grey' }} />
         <img src={looksart} />
         <img src={luvstay} />
-        <img src={navavarn} />
-        <img src={openapp} />
-        <img src={saral} />
-        <img src={nutriplate} />
+        <img src={navavarn} style={{ width: '80%' }} />
+        <img src={openapp} style={{ width: '80%' }} />
+        <img src={saral} style={{ width: '80%' }} />
+        <img src={nutriplate} style={{ width: '70%' }} />
         <img src={careercafe} />
         <img src={tourstud} />
-        <img src={unboxx} />
+        <img src={unboxx} style={{ width: '60%' }} />
+        <img src={koushik} />
       </Clients>
     )
   }
