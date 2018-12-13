@@ -7,6 +7,7 @@ import '../assets/scss/main.scss'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import { Wrapper, Page, Card } from '../components/styled/PageRelated'
+import { ContactButton } from '../components/Contact'
 
 const WebsitePage = () => (
   <Wrapper>
@@ -45,6 +46,9 @@ const WebsitePage = () => (
             <li>Sales and Distribution Roadmap</li>
             <li>Customer Communications Strategy</li>
           </ol>
+        </p>
+        <p>
+          <ContactButton />
         </p>
       </div>
       <div className="side">

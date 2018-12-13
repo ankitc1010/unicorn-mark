@@ -41,7 +41,7 @@ class Offerings extends Component {
               <a>Product and Customer Research</a>
             </Link>
             <Link to="/website">
-              <a>Custom E-Commerce Platform</a>
+              <a>Bots and E-commerce Platform</a>
             </Link>
           </div>
         )}

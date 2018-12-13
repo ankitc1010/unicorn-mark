@@ -8,6 +8,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 
 import { Wrapper, Page, Card } from '../components/styled/PageRelated'
+import { ContactButton } from '../components/Contact'
 
 const WebsitePage = () => (
   <Wrapper>
@@ -70,6 +71,9 @@ const WebsitePage = () => (
               Plan
             </li>
           </ol>
+        </p>
+        <p>
+          <ContactButton />
         </p>
       </div>
       <div className="side">

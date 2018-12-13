@@ -1,6 +1,24 @@
 import React from 'react'
+import styled from 'styled-components'
+import { Link } from 'gatsby'
 
 import Footer from './Footer'
+
+const ContactButtonStyles = styled.div`
+  text-decoration: none;
+  padding: 2rem 7rem;
+  background: #345664;
+  color: white;
+  font-weight: bold;
+  border-radius: 6rem;
+  width: max-content;
+`
+
+const ContactButton = () => (
+  <Link to="/contact">
+    <ContactButtonStyles>Contact Us</ContactButtonStyles>
+  </Link>
+)
 
 const Contact = () => (
   <>
@@ -58,3 +76,4 @@ const Contact = () => (
 )
 
 export default Contact
+export { ContactButton }
