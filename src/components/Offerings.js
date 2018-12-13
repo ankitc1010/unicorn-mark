@@ -27,15 +27,13 @@ class Offerings extends Component {
         {show && (
           <div>
             <Link to="/investment">
-              <a>Investment Branding and Strategy</a>
+              <a>Investment Branding</a>
             </Link>
             <Link to="/machinelearning">
-              <a>
-                Proof of Concept Development - Machine Learning Applications
-              </a>
+              <a>Machine Learning POCs</a>
             </Link>
             <Link to="/marketing">
-              <a>Digital Branding and Content Marketing</a>
+              <a>Digital Content Marketing</a>
             </Link>
             <Link to="/research">
               <a>Product and Customer Research</a>

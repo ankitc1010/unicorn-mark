@@ -29,7 +29,7 @@ const WebsitePage = () => (
     />
     <Page>
       <div className="main">
-        <h1>Proof of Concept Development - Machine Learning Applications</h1>
+        <h1>Machine Learning POCs</h1>
         <p>
           Machine Learning Proof-of-Concepts are custom-built prototype
           applications which demonstrate and measure the scope of automation and

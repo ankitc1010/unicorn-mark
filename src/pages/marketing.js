@@ -29,7 +29,7 @@ const WebsitePage = () => (
     />
     <Page>
       <div className="main">
-        <h1>Digital Branding and Content Marketing</h1>
+        <h1>Digital Content Marketing</h1>
         <p>
           Digital Content Marketing is a set of social and digital activities
           which ensures sustained relevance in the digital community with

@@ -30,7 +30,7 @@ const WebsitePage = () => (
     />
     <Page>
       <div className="main">
-        <h1>Investment Branding and Strategy</h1>
+        <h1>Investment Branding</h1>
         <p>
           Investment Branding is a set of professional documents which
           articulates a well-researched business opportunity and a rational plan
