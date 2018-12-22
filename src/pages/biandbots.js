@@ -7,18 +7,18 @@ import '../assets/scss/main.scss'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import { Wrapper, Page, Card } from '../components/styled/PageRelated'
-import { ContactButton } from '../components/Contact'
+import { ContactButton, SeeSite } from '../components/Contact'
 
 const WebsitePage = () => (
   <Wrapper>
     <Nav />
     <Helmet
-      title="Bots and E-commerce Platform"
+      title="Business Intelligence & Bot Based Process Automation"
       meta={[
         {
           name: 'description',
           content:
-            ' Bots and E-commerce Platform provides automation and optimization technology to seamlessly integrate business operations for efficiency.',
+            'BI Tools and Bots provide automation and optimization technology to seamlessly integrate business operations for efficiency',
         },
         {
           name: 'keywords',
@@ -29,20 +29,20 @@ const WebsitePage = () => (
     />
     <Page>
       <div className="main">
-        <h1>Bots and E-commerce Platform</h1>
+        <h1>Business Intelligence & Bot Based Process Automation</h1>
         <p>
-          Bots and E-commerce Platform provides automation and optimization
-          technology to seamlessly integrate business operations for efficiency.
+          BI Tools and Bots provide automation and optimization technology to
+          seamlessly integrate business operations for efficiency.
         </p>
         <img src={image} />
         <p>
-          The bots and the platform provide businesses the technology required
-          to immediately implement metrics-driven business operations and unlock
-          efficiency.
+          The bots and the business intelligence tools provide businesses the
+          technology required to immediately implement metrics-driven business
+          operations and unlock efficiency.
         </p>
         <p>
           <ol>
-            <li>E-commerce Platform</li>
+            <li>Business Intelligence Tools</li>
             <li>Process Automation Bots</li>
           </ol>
         </p>
@@ -52,7 +52,7 @@ const WebsitePage = () => (
       </div>
       <div className="side">
         <Card>
-          <h2> Read More</h2>
+          <h2>Read More</h2>
           <div>
             <div>
               <span>1</span>
@@ -64,7 +64,7 @@ const WebsitePage = () => (
             <div>
               <span>2</span>
               <div>
-                <p>E-commerce platform optimization (Coming Soon)</p>
+                <p>Sample Analytics Dashboard </p>
                 <p>Integrating sales and marketing best practices</p>
               </div>
             </div>
@@ -72,20 +72,16 @@ const WebsitePage = () => (
         </Card>
 
         <Card>
-          <h2> Past Work</h2>
+          <h2>Past Work</h2>
           <div>
             <div>
               <span>1</span>
               <div>
-                <p>Sales Automation Bots </p>
-                <p>An e-commerce startup</p>
-              </div>
-            </div>
-            <div>
-              <span>2</span>
-              <div>
-                <p>E-commerce platform for food businesses</p>
-                <p> A cloud kitchen startup</p>
+                <p>Schools Analytics Platform </p>
+                <p>A demo of the analytics platform.</p>
+                <p>
+                  <SeeSite link="https://unicorn-mark-dashboard.herokuapp.com" />
+                </p>
               </div>
             </div>
           </div>

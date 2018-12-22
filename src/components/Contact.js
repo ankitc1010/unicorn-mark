@@ -14,14 +14,32 @@ const ContactButtonStyles = styled.div`
   width: max-content;
 `
 
+const SeeButtonStyles = styled.div`
+  text-decoration: none;
+  padding: 2rem 7rem;
+  background: #345664;
+  color: white;
+  font-weight: bold;
+  border-radius: 6rem;
+  width: max-content;
+  padding: 1rem 4rem;
+  font-size: 1rem;
+`
+
 const ContactButton = () => (
   <Link to="/contact">
     <ContactButtonStyles>Contact Us</ContactButtonStyles>
   </Link>
 )
 
+const SeeSite = ({ link }) => (
+  <a href={link} target="_blank">
+    <SeeButtonStyles>View Demo</SeeButtonStyles>
+  </a>
+)
+
 const Contact = () => (
-  <>
+  <div>
     <section className="section-book" id="contact">
       <div className="row">
         <div className="book">
@@ -72,8 +90,8 @@ const Contact = () => (
       </div>
     </section>
     <Footer />
-  </>
+  </div>
 )
 
 export default Contact
-export { ContactButton }
+export { ContactButton, SeeSite }

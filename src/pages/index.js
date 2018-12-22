@@ -232,14 +232,14 @@ class IndexPage extends React.Component {
                       style={{ fontSize: '2.1rem' }}
                     >
                       <span className="card__heading-span card__heading-span--3">
-                        Bots and E-commerce Platform
+                        Business Intelligence & Bot Based Process Automation
                       </span>
                     </h4>
                     <div className="card__details">
                       <ul>
-                        Bots and E-commerce Platform provides automation and
-                        optimization technology to seamlessly integrate business
-                        operations for efficiency
+                        BI Tools and Bots provide automation and optimization
+                        technology to seamlessly integrate business operations
+                        for efficiency
                       </ul>
                     </div>
                   </div>
@@ -248,11 +248,52 @@ class IndexPage extends React.Component {
                       <div className="card__price-box">
                         <p className="card__price-only">To build</p>
                         <p className="card__price-value">
-                          Bots and E-commerce Platform
+                          Business Intelligence & Bot Based Process Automation
                         </p>
                       </div>
                       <Link
-                        to="/website/"
+                        to="/biandbots/"
+                        activeStyle={{
+                          color: 'red',
+                        }}
+                      >
+                        <a className="btn btn--white">Tell me more</a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-1-of-3">
+                <div className="card">
+                  <div className="card__side card__side--front">
+                    <div className="card__picture card__picture--3">&nbsp;</div>
+                    <h4
+                      className="card__heading"
+                      style={{ fontSize: '2.1rem' }}
+                    >
+                      <span className="card__heading-span card__heading-span--3">
+                        E-Commerce Store, Webapps & Mobile Apps
+                      </span>
+                    </h4>
+                    <div className="card__details">
+                      <ul>
+                        E-Commerce Store, Webapps & MobileApps are ways to have
+                        a global marketplace for branding, marketing and
+                        one-click sales setup for all kinds of business
+                        offerings.
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="card__side card__side--back card__side--back-3">
+                    <div className="card__cta">
+                      <div className="card__price-box">
+                        <p className="card__price-only">To do</p>
+                        <p className="card__price-value">
+                          E-Commerce Store, Webapps & Mobile Apps
+                        </p>
+                      </div>
+                      <Link
+                        to="/websites/"
                         activeStyle={{
                           color: 'red',
                         }}

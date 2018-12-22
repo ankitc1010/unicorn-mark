@@ -38,7 +38,7 @@ class Offerings extends Component {
             <Link to="/research">
               <a>Product and Customer Research</a>
             </Link>
-            <Link to="/website">
+            <Link to="/biandbots">
               <a>Bots and E-commerce Platform</a>
             </Link>
           </div>
