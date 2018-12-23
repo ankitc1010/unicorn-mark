@@ -22,6 +22,13 @@ import Contact from '../components/Contact'
 import Clients from '../components/Clients'
 
 class IndexPage extends React.Component {
+  componentDidMount() {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      for (let registration of registrations) {
+        registration.unregister()
+      }
+    })
+  }
   render() {
     return (
       <Wrapper>
