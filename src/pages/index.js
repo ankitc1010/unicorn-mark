@@ -11,6 +11,7 @@ import speed from '../assets/img/speed.png'
 import scalable from '../assets/img/scalable.png'
 import stable from '../assets/img/stable.png'
 import team1 from '../assets/img/team1.png'
+import bi from '../assets/img/bi.jpg'
 import team2 from '../assets/img/team3.png'
 
 import styled from 'styled-components'
@@ -273,7 +274,7 @@ class IndexPage extends React.Component {
               <div className="col-1-of-3">
                 <div className="card">
                   <div className="card__side card__side--front">
-                    <div className="card__picture card__picture--3">&nbsp;</div>
+                    <div className="card__picture card__picture--6">&nbsp;</div>
                     <h4
                       className="card__heading"
                       style={{ fontSize: '2.1rem' }}

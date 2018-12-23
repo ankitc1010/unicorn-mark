@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
-import image from '../assets/img/website.png'
+import image from '../assets/img/bi.jpg'
 
 import '../assets/scss/main.scss'
 import Nav from '../components/Nav'
@@ -13,7 +13,7 @@ const WebsitePage = () => (
   <Wrapper>
     <Nav />
     <Helmet
-      title="Business Intelligence & Bot Based Process Automation"
+      title="Business Intelligence and Process Automation Tools"
       meta={[
         {
           name: 'description',
@@ -29,7 +29,7 @@ const WebsitePage = () => (
     />
     <Page>
       <div className="main">
-        <h1>Business Intelligence & Bot Based Process Automation</h1>
+        <h1>Business Intelligence and Process Automation Tools</h1>
         <p>
           Business Intelligence & Process Automation customised upon your
           existing system to automate processes and enhance overall efficiency
@@ -46,8 +46,8 @@ const WebsitePage = () => (
         <p>We provide solutions as:</p>
         <p>
           <ol>
-            <li>Websites</li>
-            <li>Windows/OSX/Linux based softwares</li>
+            <li>Website softwares</li>
+            <li>Windows/OSX/Linux softwares</li>
           </ol>
         </p>
         <p>
