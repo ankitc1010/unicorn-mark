@@ -39,7 +39,7 @@ class Offerings extends Component {
               <a>Product and Customer Research</a>
             </Link>
             <Link to="/biandbots">
-              <a>Bots and E-commerce Platform</a>
+              <a>BI & Bot Based Process Automation</a>
             </Link>
           </div>
         )}
