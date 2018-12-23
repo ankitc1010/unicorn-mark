@@ -31,19 +31,23 @@ const WebsitePage = () => (
       <div className="main">
         <h1>Business Intelligence & Bot Based Process Automation</h1>
         <p>
-          BI Tools and Bots provide automation and optimization technology to
-          seamlessly integrate business operations for efficiency.
+          Business Intelligence & Process Automation customised upon your
+          existing system to automate processes and enhance overall efficiency
+          with respect to time, human efforts; transforming data into actionable
+          information and dashboard.
         </p>
         <img src={image} />
         <p>
-          The bots and the business intelligence tools provide businesses the
-          technology required to immediately implement metrics-driven business
-          operations and unlock efficiency.
+          Developing an overall understanding of the ongoing physical frameworks
+          to construct the architecture and deploy custom software while
+          transforming data into a business asset to achieve overall efficiency
+          and upgrade across all the processes.
         </p>
+        <p>We provide solutions as:</p>
         <p>
           <ol>
-            <li>Business Intelligence Tools</li>
-            <li>Process Automation Bots</li>
+            <li>Websites</li>
+            <li>Windows/OSX/Linux based softwares</li>
           </ol>
         </p>
         <p>

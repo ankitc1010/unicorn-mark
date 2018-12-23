@@ -36,7 +36,24 @@ const WebsitePage = () => (
           kinds of business offerings.
         </p>
         <img src={image} />
-
+        <p>
+          E-commerce stores, Web Apps, Mobile Apps designed after due research
+          with focus groups to achieve flawless UI/UX and overall navigation,
+          optimised with respect to SEO and other digital marketing standards
+          for enhanced outreach, usability, and activation. Strategic content
+          and placement of sales funnel(s) for targeted channeling and lead
+          generation.
+        </p>
+        <p>
+          <ol>
+            <li>E-Commerce Platforms</li>
+            <li>Mobile Apps (iOS/Android)</li>
+            <li>Product Development</li>
+            <li>Site Performance Audits</li>
+            <li>Accessibility Audits</li>
+            <li>Performance Improvement Reports</li>
+          </ol>
+        </p>
         <p>
           <ContactButton />
         </p>
