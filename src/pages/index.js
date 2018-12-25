@@ -273,12 +273,12 @@ class IndexPage extends React.Component {
                       style={{ fontSize: '2.1rem' }}
                     >
                       <span className="card__heading-span card__heading-span--3">
-                        E-Commerce Store, Webapps & Mobile Apps
+                        E-Commerce Store, Web Apps & Mobile Apps
                       </span>
                     </h4>
                     <div className="card__details">
                       <ul>
-                        E-Commerce Store, Webapps & MobileApps are ways to have
+                        E-Commerce Store, Web Apps & MobileApps are ways to have
                         a global marketplace for branding, marketing and
                         one-click sales setup for all kinds of business
                         offerings.
