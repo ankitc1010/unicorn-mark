@@ -23,7 +23,6 @@ import Contact from '../components/Contact'
 import Clients from '../components/Clients'
 
 class IndexPage extends React.Component {
- 
   render() {
     return (
       <Wrapper>
@@ -234,14 +233,14 @@ class IndexPage extends React.Component {
                       style={{ fontSize: '2.1rem' }}
                     >
                       <span className="card__heading-span card__heading-span--3">
-                        Business Intelligence & Bot Based Process Automation
+                        Business Intelligence & Process Automation Tools
                       </span>
                     </h4>
                     <div className="card__details">
                       <ul>
-                        BI Tools and Bots provide automation and optimization
-                        technology to seamlessly integrate business operations
-                        for efficiency
+                        Business Intelligence & Process Automation Tools provide
+                        automation and optimization technology to seamlessly
+                        integrate business operations for efficiency
                       </ul>
                     </div>
                   </div>
@@ -250,7 +249,7 @@ class IndexPage extends React.Component {
                       <div className="card__price-box">
                         <p className="card__price-only">To build</p>
                         <p className="card__price-value">
-                          Business Intelligence & Bot Based Process Automation
+                          Business Intelligence & Process Automation Tools
                         </p>
                       </div>
                       <Link
