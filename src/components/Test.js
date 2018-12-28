@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 import axios from 'axios'
 
 class Test extends Component {
+  state = {
+    questions: false,
+  }
   render() {
+    const { questions } = this.state
     return (
       <div>
         <h1>Test</h1>
@@ -21,15 +25,31 @@ class Test extends Component {
             placeholder="your email"
             required
           />
-          <input
-            type="text"
-            name="message"
-            id="message"
-            placeholder="message"
-          />
 
-          <p>
-            <button>Submit</button>
+          <span
+            onClick={() =>
+              this.setState({
+                questions: true,
+              })
+            }
+          >
+            Next
+          </span>
+          <p
+            style={{
+              visibility: questions ? 'visible' : 'hidden',
+            }}
+          >
+            <input type="text" name="bonus" placeholder="cool" />
+            <input
+              type="text"
+              name="message"
+              id="message"
+              placeholder="message"
+            />
+            <p>
+              <button>Submit</button>
+            </p>
           </p>
         </form>
       </div>
