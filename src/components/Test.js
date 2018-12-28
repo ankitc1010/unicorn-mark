@@ -9,12 +9,7 @@ class Test extends Component {
     return (
       <div>
         <h1>Test</h1>
-        <form
-          name="test"
-          method="post"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
+        <form name="contact" method="post" data-netlify="true">
           <input type="text" name="name" placeholder="your name" />
 
           <button type="submit">Submit</button>
