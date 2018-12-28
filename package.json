@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-plugin-styled-components": "^1.9.3",
+    "express": "^4.16.4",
     "gatsby": "^2.0.0",
     "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-google-fonts": "0.0.4",
