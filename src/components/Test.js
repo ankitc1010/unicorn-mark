@@ -9,7 +9,7 @@ class Test extends Component {
     return (
       <div>
         <h1>Test</h1>
-        <form method="POST" name="test" data-netlify="true">
+        <form name="test" data-netlify="true">
           <label for="name">
             <span>Name</span>
             <input type="text" name="name" />
