@@ -9,7 +9,7 @@ class Test extends Component {
         <form name="contact" method="post" data-netlify="true">
           <input type="text" name="name" id="name" placeholder="your name" />
 
-          <button type="submit">Submit</button>
+          <button>Submit</button>
         </form>
       </div>
     )
