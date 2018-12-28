@@ -12,12 +12,24 @@ class Test extends Component {
           data-netlify="true"
           data-netlify-honeypot="bot-capture"
         >
-          <input type="text" name="name" id="name" placeholder="your name" />
-          <input type="text" name="email" id="email" placeholder="your email" />
+          <p>
+            <input type="text" name="name" id="name" placeholder="your name" />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="your email"
+            />
+          </p>
           <div data-netlify-recaptcha="true" />
-          <input type="text" id="bot-capture" placeholder="your message" />
-
-          <button>Submit</button>
+          <p>
+            <input type="text" id="bot-capture" placeholder="your message" />
+          </p>
+          <p>
+            <button>Submit</button>
+          </p>
         </form>
       </div>
     )
