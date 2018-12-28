@@ -6,15 +6,16 @@ class Test extends Component {
     return (
       <div>
         <h1>Test</h1>
-        <form name="contact" method="post" data-netlify="true">
+        <form
+          name="contact"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-capture"
+        >
           <input type="text" name="name" id="name" placeholder="your name" />
           <input type="text" name="email" id="email" placeholder="your email" />
-          <input
-            type="text"
-            name="message"
-            id="message"
-            placeholder="your message"
-          />
+          <div data-netlify-recaptcha="true" />
+          <input type="text" id="bot-capture" placeholder="your message" />
 
           <button>Submit</button>
         </form>
