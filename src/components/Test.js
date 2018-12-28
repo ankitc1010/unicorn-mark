@@ -7,17 +7,26 @@ class Test extends Component {
       <div>
         <h1>Test</h1>
         <form name="new-test" method="post" data-netlify="true">
-          <p>
-            <input type="text" name="name" id="name" placeholder="your name" />
-          </p>
-          <p>
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="your email"
-            />
-          </p>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="your name"
+            required
+          />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="your email"
+            required
+          />
+          <input
+            type="text"
+            name="message"
+            id="message"
+            placeholder="message"
+          />
 
           <p>
             <button>Submit</button>
