@@ -22,6 +22,7 @@ class Test extends Component {
             <span>Message</span>
             <input type="text" name="message" />
           </label>
+          <h1>cool</h1>
           <input type="submit" />
         </form>
       </div>
