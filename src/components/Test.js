@@ -23,10 +23,7 @@ class Test extends Component {
               placeholder="your email"
             />
           </p>
-          <div data-netlify-recaptcha="true" />
-          <p>
-            <input type="text" id="bot-capture" placeholder="your message" />
-          </p>
+
           <p>
             <button>Submit</button>
           </p>
