@@ -9,20 +9,14 @@ class Test extends Component {
     return (
       <div>
         <h1>Test</h1>
-        <form name="test" data-netlify="true">
-          <label for="name">
-            <span>Name</span>
-            <input type="text" name="name" />
-          </label>
-          <label for="email">
-            <span>Email</span>
-            <input type="text" name="email" />
-          </label>
-          <label for="message">
-            <span>Message</span>
-            <input type="text" name="message" />
-          </label>
-          <div data-netlify-recaptcha="true" />
+        <form
+          name="test"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="text" name="name" placeholder="your name" />
+
           <button type="submit">Submit</button>
         </form>
       </div>
