@@ -1,6 +1,7 @@
 import React from 'react'
 
 import logo from '../assets/img/logo.png'
+import '../assets/scss/main.scss'
 
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'

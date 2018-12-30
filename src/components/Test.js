@@ -75,6 +75,125 @@ class Test extends Component {
             />
           </Label>
 
+          <Label>
+            <span>Email:</span>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="your email"
+              required
+            />
+          </Label>
+          <Label>
+            <span>Password:</span>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="your password"
+              required
+            />
+          </Label>
+          <Label>
+            <span>Mobile:</span>
+            <input
+              type="number"
+              name="mobile"
+              id="mobile"
+              placeholder="your phone"
+              required
+            />
+          </Label>
+          <Label>
+            <span>Whatsapp(if diff):</span>
+            <input
+              type="number"
+              name="whatsapp"
+              id="whatsapp"
+              placeholder="your whatsapp number"
+            />
+          </Label>
+          <Label>
+            <span>Place of residence in Bangalore:</span>
+            <input
+              type="text"
+              name="residence"
+              id="residence"
+              placeholder="your address"
+              required
+            />
+          </Label>
+          <Label>
+            <span>Any backs in labs:</span>
+            <input
+              type="text"
+              name="backs"
+              id="backs"
+              placeholder="List out backs if any"
+            />
+          </Label>
+          <Label>
+            <span>Any existing projects which are online:</span>
+            <textarea
+              type="text"
+              name="online"
+              id="online"
+              placeholder="Provide links"
+            />
+          </Label>
+          <Label>
+            <span>Any existing projects which are not online:</span>
+            <textarea
+              type="text"
+              name="offline"
+              id="offline"
+              placeholder="Describe them"
+            />
+          </Label>
+          <Label>
+            <span>Any existing projects which are not online:</span>
+            <textarea
+              type="text"
+              name="offline"
+              id="offline"
+              placeholder="Describe them"
+              required
+            />
+          </Label>
+
+          <Label>
+            <span>List out technical proficiencies:</span>
+            <textarea
+              type="text"
+              name="technical"
+              id="techinal"
+              placeholder="If you have put up extra somewhere and have nothing to show on that aspect"
+              required
+            />
+          </Label>
+          <Label>
+            <span>Knowledge:</span>
+            <textarea
+              type="text"
+              name="technical"
+              id="technical"
+              placeholder="Highlight what experience you have in Web / Data Science / Digital Marketing"
+              required
+            />
+          </Label>
+
+          <Label>
+            <span>Job Role:</span>
+            <textarea
+              type="text"
+              name="technical"
+              id="technical"
+              placeholder="Specify which job role you will opt for when you are hired by a company"
+              required
+            />
+          </Label>
+
           <Button>
             <button>Submit</button>
           </Button>
@@ -83,128 +202,5 @@ class Test extends Component {
     )
   }
 }
-
-// <Label>
-//             <span>Email:</span>
-//             <input
-//               type="email"
-//               name="email"
-//               id="email"
-//               placeholder="your email"
-//               required
-//             />
-//           </Label>
-//           <Label>
-//             <span>Password:</span>
-//             <input
-//               type="password"
-//               name="password"
-//               id="password"
-//               placeholder="your password"
-//               required
-//             />
-//           </Label>
-//           <Label>
-//             <span>Mobile:</span>
-//             <input
-//               type="number"
-//               name="mobile"
-//               id="mobile"
-//               placeholder="your phone"
-//               required
-//             />
-//           </Label>
-//           <Label>
-//             <span>Whatsapp(if diff):</span>
-//             <input
-//               type="number"
-//               name="whatsapp"
-//               id="whatsapp"
-//               placeholder="your whatsapp number"
-//               required
-//             />
-//           </Label>
-//           <Label>
-//             <span>Place of residence in Bangalore:</span>
-//             <input
-//               type="text"
-//               name="residence"
-//               id="residence"
-//               placeholder="your address"
-//               required
-//             />
-//           </Label>
-//           <Label>
-//             <span>Any backs in labs:</span>
-//             <input
-//               type="text"
-//               name="backs"
-//               id="backs"
-//               placeholder="List out backs if any"
-//               required
-//             />
-//           </Label>
-//           <Label>
-//             <span>Any existing projects which are online:</span>
-//             <textarea
-//               type="text"
-//               name="online"
-//               id="online"
-//               placeholder="Provide links"
-//               required
-//             />
-//           </Label>
-//           <Label>
-//             <span>Any existing projects which are not online:</span>
-//             <textarea
-//               type="text"
-//               name="offline"
-//               id="offline"
-//               placeholder="Describe them"
-//               required
-//             />
-//           </Label>
-//           <Label>
-//             <span>Any existing projects which are not online:</span>
-//             <textarea
-//               type="text"
-//               name="offline"
-//               id="offline"
-//               placeholder="Describe them"
-//               required
-//             />
-//           </Label>
-
-//           <Label>
-//             <span>List out technical proficiencies:</span>
-//             <textarea
-//               type="text"
-//               name="technical"
-//               id="techinal"
-//               placeholder="If you have put up extra somewhere and have nothing to show on that aspect"
-//               required
-//             />
-//           </Label>
-//           <Label>
-//             <span>Knowledge:</span>
-//             <textarea
-//               type="text"
-//               name="technical"
-//               id="technical"
-//               placeholder="Highlight what experience you have in Web / Data Science / Digital Marketing"
-//               required
-//             />
-//           </Label>
-
-//           <Label>
-//             <span>Job Role:</span>
-//             <textarea
-//               type="text"
-//               name="technical"
-//               id="technical"
-//               placeholder="Specify which job role you will opt for when you are hired by a company"
-//               required
-//             />
-//           </Label>
 
 export default Test
