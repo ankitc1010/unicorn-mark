@@ -65,7 +65,6 @@ class Test extends Component {
           name="new-test"
           method="post"
           data-netlify="true"
-          netlify
         >
           <Label>
             <span>Name:</span>
