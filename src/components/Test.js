@@ -9,7 +9,7 @@ const Heading = styled.h1`
   }
 `
 
-const Label = styled.label`
+const Label = styled.p`
   > span {
     font-size: 4rem;
     font-weight: bold;
