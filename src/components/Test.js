@@ -38,7 +38,7 @@ const Label = styled.p`
   }
 `
 
-const Button = styled.button`
+const Button = styled.div`
   position: relative;
   display: inline-block;
   padding: 1rem 3rem;
@@ -63,20 +63,20 @@ class Test extends Component {
         <form name="another-test" method="post" data-netlify="true">
           <input
             type="text"
+            name="another-test"
+            value="another-test"
+            placeholder="message"
+          />
+          <input
+            type="text"
             name="name"
             id="name"
             placeholder="your name"
             required
           />
-
-          <input
-            type="text"
-            name="another-test"
-            value="another-test"
-            placeholder="message"
-          />
-
-          <button>Submit</button>
+          <Button>
+            <button>Submit</button>
+          </Button>
         </form>
       </div>
     )
