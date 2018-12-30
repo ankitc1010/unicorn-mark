@@ -63,16 +63,16 @@ class Test extends Component {
         <form name="another-test" method="post" data-netlify="true">
           <input
             type="text"
-            name="another-test"
-            value="another-test"
-            placeholder="message"
-          />
-          <input
-            type="text"
             name="name"
             id="name"
             placeholder="your name"
             required
+          />
+          <input
+            type="text"
+            name="another-test"
+            value="another-test"
+            placeholder="message"
           />
           <Button>
             <button>Submit</button>
