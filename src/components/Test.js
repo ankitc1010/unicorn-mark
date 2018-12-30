@@ -79,7 +79,7 @@ class Test extends Component {
             placeholder="message"
           />
 
-          <Button>Submit</Button>
+          <button>Submit</button>
         </form>
       </div>
     )
