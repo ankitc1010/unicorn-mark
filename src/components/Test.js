@@ -61,18 +61,13 @@ class Test extends Component {
       <div style={{ padding: '1rem' }}>
         <Heading>Internship Form Test</Heading>
         <form name="another-test" method="post" data-netlify="true">
+          <input type="hidden" name="form-name" value="another-test" />
           <input
             type="text"
             name="name"
             id="name"
             placeholder="your name"
             required
-          />
-          <input
-            type="text"
-            name="another-test"
-            value="another-test"
-            placeholder="message"
           />
           <Button>
             <button>Submit</button>
