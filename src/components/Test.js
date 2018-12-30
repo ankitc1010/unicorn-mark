@@ -74,8 +74,9 @@ class Test extends Component {
 
           <input
             type="text"
-            name="message"
-            id="message"
+            hidden
+            name="another-test"
+            value="another-test"
             placeholder="message"
           />
           <p>
