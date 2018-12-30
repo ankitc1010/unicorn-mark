@@ -60,12 +60,7 @@ class Test extends Component {
     return (
       <div style={{ padding: '1rem' }}>
         <Heading>Internship Form Test</Heading>
-        <form
-          action="/thankyou"
-          name="another-test"
-          method="post"
-          data-netlify="true"
-        >
+        <form name="another-test" method="post" data-netlify="true">
           <Label>
             <span>Name:</span>
             <input
