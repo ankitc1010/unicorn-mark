@@ -78,9 +78,8 @@ class Test extends Component {
             value="another-test"
             placeholder="message"
           />
-          <p>
-            <Button>Submit</Button>
-          </p>
+
+          <Button>Submit</Button>
         </form>
       </div>
     )
