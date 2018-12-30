@@ -63,18 +63,17 @@ class Test extends Component {
         <form name="another-test" method="post" data-netlify="true">
           <Label>
             <span>Name:</span>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="your name"
-              required
-            />
           </Label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="your name"
+            required
+          />
 
           <input
             type="text"
-            hidden
             name="another-test"
             value="another-test"
             placeholder="message"
