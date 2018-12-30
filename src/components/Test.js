@@ -39,16 +39,18 @@ const Label = styled.p`
 `
 
 const Button = styled.div`
-  position: relative;
-  display: inline-block;
-  padding: 1rem 3rem;
-  border-radius: 4px;
-  text-decoration: none;
-  text-align: center;
-  cursor: pointer;
-  font-size: 4rem;
-  color: white;
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  > button {
+    position: relative;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 4rem;
+    color: white;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+  }
 `
 
 class Test extends Component {
@@ -62,13 +64,17 @@ class Test extends Component {
         <Heading>Internship Form Test</Heading>
         <form name="another-test" method="post" data-netlify="true">
           <input type="hidden" name="form-name" value="another-test" />
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="your name"
-            required
-          />
+          <Label>
+            <span>Name</span>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="your name"
+              required
+            />
+          </Label>
+
           <Button>
             <button>Submit</button>
           </Button>
