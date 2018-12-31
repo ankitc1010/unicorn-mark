@@ -61,7 +61,7 @@ class Test extends Component {
     const { questions } = this.state
     return (
       <div style={{ padding: '1rem' }}>
-        <Heading>Internship Form Test</Heading>
+        <Heading>Registration Form</Heading>
         <form name="another-test" method="post" data-netlify="true">
           <input type="hidden" name="form-name" value="another-test" />
           <Label>
