@@ -106,7 +106,7 @@ class Test extends Component {
             />
           </Label>
           <Label>
-            <span>Whatsapp(if diff):</span>
+            <span>WhatsApp (if different):</span>
             <input
               type="number"
               name="whatsapp"
@@ -148,7 +148,7 @@ class Test extends Component {
               type="text"
               name="offline"
               id="offline"
-              placeholder="Describe them"
+              placeholder="Describe them and you will required to give the demo when giving the interview"
             />
           </Label>
 
@@ -158,7 +158,7 @@ class Test extends Component {
               type="text"
               name="technical"
               id="techinal"
-              placeholder="If you have put up extra somewhere and have nothing to show on that aspect"
+              placeholder="If you have put up some extra efforts somewhere and have no demonstrable projects to share explain what all you learnt. For example- Did 'x' course from 'y' platform. Did 'z' internship somewhere. "
               required
             />
           </Label>
