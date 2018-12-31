@@ -2,8 +2,11 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import axios from 'axios'
 
+import image from './cool.png'
 const Heading = styled.h1`
   font-size: 6rem;
+  line-height: 1;
+  margin: 4rem 0rem;
   @media (max-width: 500px) {
     font-size: 4rem;
   }
@@ -53,6 +56,15 @@ const Button = styled.div`
   }
 `
 
+const Image = styled.div`
+  img {
+    width: 50% !important;
+    @media (max-width: 500px) {
+      width: 100% !important;
+    }
+  }
+`
+
 class Test extends Component {
   state = {
     questions: false,
@@ -61,7 +73,14 @@ class Test extends Component {
     const { questions } = this.state
     return (
       <div style={{ padding: '1rem' }}>
-        <Heading>Registration Form</Heading>
+        <Image>
+          <img src={image} style={{ width: '100%' }} />
+        </Image>
+        <Heading>
+          Registration Form- <br />
+          B.I.T students <br />
+          7th Sem, C.S.E
+        </Heading>
         <form name="another-test" method="post" data-netlify="true">
           <input type="hidden" name="form-name" value="another-test" />
           <Label>
@@ -179,7 +198,7 @@ class Test extends Component {
               type="text"
               name="technical"
               id="technical"
-              placeholder="Specify which job role you will opt for when you are hired by a company"
+              placeholder="Specify which job role you will opt for when you are hired by a company during placements. Have you given any thoughts on this?"
               required
             />
           </Label>
