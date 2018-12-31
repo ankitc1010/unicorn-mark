@@ -151,16 +151,6 @@ class Test extends Component {
               placeholder="Describe them"
             />
           </Label>
-          <Label>
-            <span>Any existing projects which are not online:</span>
-            <textarea
-              type="text"
-              name="offline"
-              id="offline"
-              placeholder="Describe them"
-              required
-            />
-          </Label>
 
           <Label>
             <span>List out technical proficiencies:</span>
