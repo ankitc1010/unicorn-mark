@@ -7,8 +7,16 @@ const Heading = styled.h1`
   font-size: 6rem;
   line-height: 1;
   margin: 4rem 0rem;
+  text-align: center;
+  span {
+    font-size: 5rem;
+  }
   @media (max-width: 500px) {
     font-size: 4rem;
+    text-align: left;
+    span {
+      font-size: 3.5rem;
+    }
   }
 `
 
@@ -57,11 +65,16 @@ const Button = styled.div`
 `
 
 const Image = styled.div`
+  text-align: center;
   img {
     width: 50% !important;
+
     @media (max-width: 500px) {
       width: 100% !important;
     }
+  }
+  @media (max-width: 500px) {
+    text-align: left;
   }
 `
 
@@ -74,12 +87,12 @@ class Test extends Component {
     return (
       <div style={{ padding: '1rem' }}>
         <Image>
-          <img src={image} style={{ width: '100%' }} />
+          <img src={image} style={{ margin: 'auto' }} />
         </Image>
         <Heading>
           Registration Form- <br />
-          B.I.T students <br />
-          7th Sem, C.S.E
+          <span>B.I.T students</span> <br />
+          <span>7th Sem, C.S.E</span>
         </Heading>
         <form name="another-test" method="post" data-netlify="true">
           <input type="hidden" name="form-name" value="another-test" />
@@ -110,7 +123,17 @@ class Test extends Component {
               type="password"
               name="password"
               id="password"
-              placeholder="your password"
+              placeholder="your password (for your upcoming profile)"
+              required
+            />
+          </Label>
+          <Label>
+            <span>USN Number:</span>
+            <input
+              type="text"
+              name="usn"
+              id="usn"
+              placeholder="your usn number"
               required
             />
           </Label>
@@ -182,12 +205,12 @@ class Test extends Component {
             />
           </Label>
           <Label>
-            <span>Knowledge:</span>
+            <span>Knowledge/Experience Domain:</span>
             <textarea
               type="text"
               name="technical"
               id="technical"
-              placeholder="Highlight what experience you have in Web / Data Science / Digital Marketing"
+              placeholder="Highlight what knowledge/experience you have in Web Technologies / Data Science / Digital Marketing / Business Analytics / Others"
               required
             />
           </Label>
