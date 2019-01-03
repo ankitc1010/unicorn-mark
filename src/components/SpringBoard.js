@@ -33,7 +33,7 @@ const Wrapper = styled.div`
     h2 {
       text-transform: uppercase;
       text-align: center;
-      font-size: 18px;
+      font-size: 3rem;
       color: darken(#4e3332, 10%);
       letter-spacing: 0.061em;
       margin-top: 60px;
@@ -77,12 +77,12 @@ const Wrapper = styled.div`
       padding-top: 8px;
       padding-bottom: 8px;
       text-transform: uppercase;
-      font-size: 11px;
+      font-size: 2rem;
       position: relative;
       z-index: 500;
       letter-spacing: 0.06em;
       @media (max-width: 600px) {
-        width: 95%;
+        width: 100%;
       }
       &:focus {
         border: 1px solid #faf5f3;
