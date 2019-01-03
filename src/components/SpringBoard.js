@@ -13,6 +13,7 @@ const Wrapper = styled.div`
     no-repeat center center;
   background-size: cover;
   font-family: 'Lato', sans-serif;
+  font-size: 4rem;
   form {
     background: #faf5f3;
     margin: 0 auto;
@@ -33,35 +34,13 @@ const Wrapper = styled.div`
     h2 {
       text-transform: uppercase;
       text-align: center;
-      font-size: 3rem;
+      font-size: 18px;
       color: darken(#4e3332, 10%);
       letter-spacing: 0.061em;
       margin-top: 60px;
       margin-bottom: 20px;
-      &.success {
-        color: #356e64;
-        margin-top: -40px;
-        margin-bottom: 0px;
-        padding: 0;
-      }
     }
-    p.success-dialog {
-      margin-top: -150px;
-      color: #356e64;
-      letter-spacing: 0.02em;
-      text-align: center;
-      line-height: 1.8em;
-      text-transform: uppercase;
-      a {
-        color: #9d775f;
-        text-decoration: none;
-        transition: 0.8s all ease;
-        &:hover {
-          color: #c08159;
-          transition: 0.4s all ease;
-        }
-      }
-    }
+
     input {
       width: 80%;
       background: #fff;
@@ -76,13 +55,12 @@ const Wrapper = styled.div`
       border-bottom: 1px solid #faf5f3;
       padding-top: 8px;
       padding-bottom: 8px;
-      text-transform: uppercase;
-      font-size: 2rem;
+      font-size: 11px;
       position: relative;
       z-index: 500;
       letter-spacing: 0.06em;
       @media (max-width: 600px) {
-        width: 100%;
+        width: 95%;
       }
       &:focus {
         border: 1px solid #faf5f3;
@@ -90,9 +68,7 @@ const Wrapper = styled.div`
         appearance: none;
       }
     }
-    input:-webkit-autofill {
-      -webkit-box-shadow: 0 0 0px 1000px white inset;
-    }
+
     .submit {
       padding-top: 12px;
       padding-bottom: 12px;
@@ -117,56 +93,6 @@ const Wrapper = styled.div`
   }
   #firstname {
     margin-top: 20px;
-  }
-
-  .circle {
-    padding: 15px;
-    height: 25px;
-    width: 25px;
-    margin-top: -80px;
-    margin-left: 115px;
-    position: absolute;
-    z-index: 20;
-    border-radius: 50%;
-    clear: both;
-    opacity: 0.8;
-  }
-
-  .circle-quill {
-    border: 1px solid #faf5f3;
-    background: #fff;
-  }
-
-  .circle-paper {
-    border: 1px solid $green-lt;
-    background: $green-dk;
-  }
-
-  .submit-under,
-  .loader,
-  .loader2,
-  .circle-paper,
-  p.success-dialog,
-  h2.success {
-    visibility: hidden;
-  }
-
-  .submit-under {
-    background: #8c6e7a;
-    width: 291px;
-    height: 45px;
-    margin-top: -40px;
-    margin-left: -4px;
-    position: absolute;
-    z-index: -1;
-  }
-
-  .loader,
-  .loader2 {
-    position: absolute;
-    z-index: -5;
-    margin-top: -45px;
-    margin-left: 114px;
   }
 `
 
