@@ -196,16 +196,49 @@ class SpringBoard extends Component {
               maxlength="100"
             />
             <input
-              type="email"
-              placeholder="email"
-              name="email"
+              type="text"
+              id="startupname"
+              name="startupname"
+              placeholder="Startup Name"
+              required
+              maxlength="100"
+            />
+            <input
+              type="text"
+              placeholder="Business Type"
+              name="businesstype"
               required="required"
+            />
+            <input
+              type="text"
+              id="natureofofferings"
+              name="natureofofferings"
+              placeholder="Nature of Offerings"
+              required
+            />
+            <input
+              type="text"
+              id="website"
+              name="website"
+              placeholder="website adderess"
+              required
             />
             <input
               type="text"
               placeholder="phone number"
               name="phone"
               required="required"
+            />
+            <input
+              type="email"
+              placeholder="email address"
+              name="email"
+              required="required"
+            />
+            <input
+              type="text"
+              placeholder="Any Specific Queries/Suggestions for the Event"
+              name="suggestion"
             />
             <div className="allsub">
               <button className="submit">Contact Us Today</button>
