@@ -11,14 +11,12 @@ const Wrapper = styled.div`
   padding: 0;
   background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/form-bk.jpg')
     no-repeat center center;
-  background-size: static;
+  background-size: fixed;
   font-family: 'Lato', sans-serif;
   form {
     background: #faf5f3;
     margin: 0 auto;
     width: 50%;
-    margin-top: 50px;
-    margin-bottom: 50px;
 
     z-index: 10;
     padding: 60px 60px 80px;
@@ -27,6 +25,9 @@ const Wrapper = styled.div`
     text-align: center;
     @media (max-width: 600px) {
       width: 100%;
+      input {
+        width: 95%;
+      }
     }
 
     h2 {
@@ -62,7 +63,7 @@ const Wrapper = styled.div`
       }
     }
     input {
-      width: 100%;
+      width: 80%;
       background: #fff;
       text-align: center;
       margin-bottom: 25px;
@@ -80,6 +81,9 @@ const Wrapper = styled.div`
       position: relative;
       z-index: 500;
       letter-spacing: 0.06em;
+      @media (max-width: 600px) {
+        width: 95%;
+      }
       &:focus {
         border: 1px solid #faf5f3;
         outline: none;
