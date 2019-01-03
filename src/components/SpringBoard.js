@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   padding: 0;
   background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/form-bk.jpg')
     no-repeat center center;
-  background-size: fixed;
+  background-size: cover;
   font-family: 'Lato', sans-serif;
   form {
     background: #faf5f3;
