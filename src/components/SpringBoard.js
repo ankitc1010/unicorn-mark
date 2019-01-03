@@ -14,11 +14,12 @@ const Wrapper = styled.div`
   background-size: cover;
   font-family: 'Lato', sans-serif;
   font-size: 4rem;
+  z-index: 1;
   form {
     background: #faf5f3;
     margin: 0 auto;
     width: 50%;
-
+    position: relative;
     z-index: 10;
     padding: 60px 60px 80px;
 
@@ -55,7 +56,7 @@ const Wrapper = styled.div`
       border-bottom: 1px solid #faf5f3;
       padding-top: 8px;
       padding-bottom: 8px;
-      font-size: 11px;
+      font-size: 13px;
       position: relative;
       z-index: 500;
       letter-spacing: 0.06em;
@@ -120,7 +121,7 @@ class SpringBoard extends Component {
               type="text"
               id="name"
               name="name"
-              placeholder="full name"
+              placeholder="Full Name"
               required
               maxlength="100"
             />
@@ -134,7 +135,7 @@ class SpringBoard extends Component {
             />
             <input
               type="text"
-              placeholder="Business Type"
+              placeholder="Business Type (service/product based)"
               name="businesstype"
               required="required"
             />
@@ -142,25 +143,25 @@ class SpringBoard extends Component {
               type="text"
               id="natureofofferings"
               name="natureofofferings"
-              placeholder="Nature of Offerings"
+              placeholder="Nature of Offerings (B2B/B2C)"
               required
             />
             <input
               type="text"
               id="website"
               name="website"
-              placeholder="website adderess"
+              placeholder="Website Address"
               required
             />
             <input
               type="text"
-              placeholder="phone number"
+              placeholder="Phone Number"
               name="phone"
               required="required"
             />
             <input
               type="email"
-              placeholder="email address"
+              placeholder="Email Address"
               name="email"
               required="required"
             />
@@ -170,7 +171,7 @@ class SpringBoard extends Component {
               name="suggestion"
             />
             <div className="allsub">
-              <button className="submit">Contact Us Today</button>
+              <button className="submit">SUBMIT</button>
               <div className="submit-under" />
             </div>
           </div>
