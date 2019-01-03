@@ -5,25 +5,24 @@ import springboard from './img/logo_spring.png'
 import unicornmark from './img/logo.png'
 
 const Wrapper = styled.div`
-  width: 94vw;
-  height: 94vh;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/form-bk.jpg')
     no-repeat center center;
-  background-size: cover;
+  background-size: static;
   font-family: 'Lato', sans-serif;
   form {
     background: #faf5f3;
+    margin: 0 auto;
     width: 50%;
     margin-top: 50px;
     margin-bottom: 50px;
-    position: absolute;
+
     z-index: 10;
     padding: 60px 60px 80px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+
     opacity: 0.85;
     text-align: center;
     @media (max-width: 600px) {
