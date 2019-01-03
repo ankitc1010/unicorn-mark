@@ -306,6 +306,46 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
+            <div className="row">
+              <div className="col-1-of-3">
+                <div className="card">
+                  <div className="card__side card__side--front">
+                    <div className="card__picture card__picture--2">&nbsp;</div>
+                    <h4
+                      className="card__heading"
+                      style={{ fontSize: '2.1rem' }}
+                    >
+                      <span className="card__heading-span card__heading-span--3">
+                        Seminars and Events
+                      </span>
+                    </h4>
+                    <div className="card__details">
+                      <ul>
+                        We conduct events and seminars to train and educate
+                        people about the latest trends that are there in the
+                        world right now.
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="card__side card__side--back card__side--back-3">
+                    <div className="card__cta">
+                      <div className="card__price-box">
+                        <p className="card__price-only">Conduct</p>
+                        <p className="card__price-value">Seminars and Events</p>
+                      </div>
+                      <Link
+                        to="/seminars/"
+                        activeStyle={{
+                          color: 'red',
+                        }}
+                      >
+                        <a className="btn btn--white">Tell me more</a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             {/* <div className="u-center-text u-margin-top-huge">
               <a href="#" className="btn btn--green">
