@@ -3,14 +3,14 @@ import styled from 'styled-components'
 
 import springboard from './img/logo_spring.png'
 import unicornmark from './img/logo.png'
+import background from './img/background.png'
 
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/form-bk.jpg')
-    no-repeat center center;
+  background: url(${background}) no-repeat center center;
   background-size: cover;
   font-family: 'Lato', sans-serif;
   font-size: 4rem;
@@ -22,7 +22,7 @@ const Wrapper = styled.div`
     z-index: 10;
     padding: 60px 60px 80px;
 
-    opacity: 0.85;
+    opacity: 0.95;
     text-align: center;
     @media (max-width: 600px) {
       width: 100%;
