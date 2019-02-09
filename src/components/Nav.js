@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
+import Helmet from 'react-helmet'
 import Offerings from './Offerings'
 
 import logo from '../assets/img/logo.png'
@@ -118,6 +119,15 @@ class Header extends Component {
     const { home } = this.props
     return (
       <>
+        {' '}
+        <Helmet
+          meta={[
+            {
+              name: 'google-site-verification',
+              content: '1Q4GelqhzI9Z2m8_vH2ik5NSrgW_OKumPKtF0UVqY4M',
+            },
+          ]}
+        />
         <NavStyles>
           <div className="logo" />
           <div className="rest">
