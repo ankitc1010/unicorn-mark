@@ -3,8 +3,11 @@ module.exports = {
     title: 'UnicornMark',
     author: 'Ankit Chauhan',
     description: 'Brand and marketing science, for Sales and ROI',
+    siteUrl: `https://unicornmark.com`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-google-fonts`,
