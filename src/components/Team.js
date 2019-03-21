@@ -85,19 +85,6 @@ class TeamSection extends Component {
         </TeamMember>
         <TeamMember>
           <div>
-            <img src={ankit} />
-          </div>
-          <div>
-            <h4>Ankit Chauhan</h4>
-            <p>Partner, Web Technologies</p>
-            <p>
-              Worked with 30+ Startups over 2 years of professional experience
-            </p>
-            <p>Alumnus of BIT, Bangalore</p>
-          </div>
-        </TeamMember>
-        <TeamMember>
-          <div>
             <img src={aashay} />
           </div>
           <div>
