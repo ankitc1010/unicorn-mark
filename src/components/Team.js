@@ -116,7 +116,7 @@ class TeamSection extends Component {
           </div>
           <div>
             <h4>Shalabh Garg</h4>
-            <p>Partner, Marketing and growth</p>
+            <p>Partner, Marketing and Growth</p>
             <p>
               2 years of professional experience
             </p>
