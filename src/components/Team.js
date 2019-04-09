@@ -6,7 +6,8 @@ import aman from './img/aman.png'
 import ankit from './img/ankit.jpg'
 import goswami from './img/goswami.jpg'
 import prateek from './img/prateek.jpg'
-import shalabh from './img/Vinay.jpg'
+import vinay from './img/Vinay.jpg'
+import shalabh from './img/shalabh.jpg'
 
 const Team = styled.div`
   display: grid;
@@ -98,7 +99,7 @@ class TeamSection extends Component {
         </TeamMember>
         <TeamMember>
           <div>
-            <img src={shalabh} />
+            <img src={vinay} />
           </div>
           <div>
             <h4>Vinay Jugati</h4>
@@ -107,6 +108,19 @@ class TeamSection extends Component {
               Worked with 5+ Startups over 2 years of professional experience
             </p>
             <p>Alumnus of RVCE, Bangalore</p>
+          </div>
+        </TeamMember>
+        <TeamMember>
+          <div>
+            <img src={shalabh} />
+          </div>
+          <div>
+            <h4>Shalabh Garg</h4>
+            <p>Partner, Marketing and growth</p>
+            <p>
+              2 years of professional experience
+            </p>
+            <p>Alumnus of AIT, Bangalore</p>
           </div>
         </TeamMember>
         <TeamMember>
