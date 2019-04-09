@@ -118,7 +118,7 @@ class TeamSection extends Component {
             <h4>Shalabh Garg</h4>
             <p>Partner, Marketing and Growth</p>
             <p>
-              2 years of professional experience
+              Worked with 5+ Startups over 2 years of professional experience
             </p>
             <p>Alumnus of AIT, Bangalore</p>
           </div>
