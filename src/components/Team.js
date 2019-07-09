@@ -70,7 +70,7 @@ class TeamSection extends Component {
             <p>Alumnus of BIT, Bangalore</p>
           </div>
         </TeamMember>
-        <TeamMember>
+        {/* <TeamMember>
           <div>
             <img src={goswami} />
           </div>
@@ -83,7 +83,7 @@ class TeamSection extends Component {
             </p>
             <p>Alumnus of IIM, Lucknow and BITS, Pilani</p>
           </div>
-        </TeamMember>
+        </TeamMember> */}
         <TeamMember>
           <div>
             <img src={aashay} />
